@@ -22,11 +22,13 @@
 class BBDataViz() {
 	public function __construct() {
 		// Add the plugin shortcode
-		add_shortcode('Dribbble', array($this, 'shortcode'));
+		add_shortcode('bb-data-viz', array($this, 'loadMap'));
 		
 	}
 	
-	
+	public function loadMap() {
+		echo 'Test';
+	}
 }
 
-$bbdatavix = new BBDataViz();
+$bbdataviz = new BBDataViz();
