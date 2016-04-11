@@ -19,11 +19,18 @@
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-class BBDataViz() {
+class BBDataViz {
 	public function __construct() {
 		// Add the plugin shortcode
-		add_shortcode('bb-data-viz', array($this, 'loadMap'));
+		add_shortcode('bb-data-viz', array($this, 'holdingMapImage'));
 		
+	}
+	
+	public function holdingMapImage() {
+		// Display the holding page map
+		echo '<p>We\'re currently busy collecting data for Britain Breathing. Please check back for updates soon.</p>';
+		
+		echo '<p><img src="'.plugins_url('imgs/bb_map.jpg', __FILE__ ).'" alt="Map data coming soon..." style="width:100%"></p>';
 	}
 	
 	public function loadMap() {
