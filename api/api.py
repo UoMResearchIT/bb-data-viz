@@ -11,29 +11,81 @@ Actions:
 
 '''
 
+import pymysql
+import os
+import datetime
+
 class BBAPI():
 	'Main class for creating the data file for the Britain Breathing data visualisation plugin'
 
 	# Constructor
 	def __init__(self):
 		self.config = self.getConfig()
-	
+		
 		# Sync the local and source database
-		self.syncDatabase()
+		self.syncDatabases()
 		
 		# Generate the JSON data file
 		self.createDataFile()
 	
-	def syncDatabase(self):
-		print(self.config['hostname'])
+	def syncDatabases(self):
+		# Backup the local database
+		self.backupLocalDB()		
 		
-		# Connect to remote database
+		# Get a dump of the remote database
+		file_name = self.getRemoteDB()
 		
-		# Get dump of tables
-		
-		# Update local database
+		# Update the local database
+		self.updateLocalDB(file_name)	
 	
-		# On success, create the JSON data file
+	def backupLocalDB(self):
+		currentTime = str(datetime.datetime.now())
+		now = currentTime.replace(" ", "-")
+		file_name = "bb_backup_local-"+now+".sql.tar.gz"
+		
+		x =\
+			"mysqldump\
+			--host="+self.config['localhostname']+"\
+			--port=3306\
+			--databases bb\
+			--user="+self.config['localusername']+"\
+			--password="+self.config['localpassword']+"\
+			> ~/bb_db_backups/bb_backup.sql;\
+			cd ~/bb_db_backups;\
+			tar -zcf "+file_name+" bb_backup.sql;\
+			rm bb_backup.sql;"
+		
+		os.system(x)
+	
+	def getRemoteDB(self):
+		currentTime = str(datetime.datetime.now())
+		now = currentTime.replace(" ", "-")
+		file_name = "bb_backup_remote-"+now+".sql"
+		
+		x =\
+			"mysqldump\
+			--host="+self.config['remoteusername']+"\
+			--port=3306\
+			--databases bb\
+			--user="+self.config['remoteusername']+"\
+			--password="+self.config['remotepassword']+"\
+			> ~/bb_db_backups/"+file_name+";"
+		
+		os.system(x)
+		
+		return file_name
+	
+	def updateLocalDB(self, file_name):
+		# Update the local database with the remote dump file
+		x =\
+			"mysql\
+			-u "+self.config['localusername']+"\
+			-p"+self.config['localpassword']+"\
+			< ~/bb_db_backups/"+file_name+";\
+			cd ~/bb_db_backups;\
+			rm "+file_name+";"
+		
+		os.system(x)
 	
 	def createDataFile(self):
 		pass
