@@ -1,4 +1,4 @@
 # Ignore files
 .DS_Store
 test_data/
-api/config.ini
+bb_db_sync/config.ini

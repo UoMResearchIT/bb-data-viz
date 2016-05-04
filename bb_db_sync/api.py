@@ -92,7 +92,9 @@ class BBAPI():
 		
 		# Do the database query
 		
+		
 		# Parse the output into a JSON file
+		
 		
 		# Save the file in the web folder
 		
