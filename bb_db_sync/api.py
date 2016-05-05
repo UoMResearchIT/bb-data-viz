@@ -101,6 +101,7 @@ class BBAPI():
 		print('Creating json file from local database...')
 		
 		# Do the database query
+		# Use pymysql here
 		
 		
 		# Parse the output into a JSON file

@@ -34,7 +34,12 @@ class BBDataViz {
 	}
 	
 	public function loadMap() {
-		echo 'Test';
+		// Get JSON from the API
+		
+		// Parse onto the map
+		
+		// Add map to the page
+		
 	}
 }
 
