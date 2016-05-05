@@ -1,5 +1,6 @@
 # bb-data-viz
-Britain Breathing data visualisation Wordpress plugin.
+
+Britain Breathing data visualisation Wordpress plugin and data API.
 
 Includes api.py which generates a static JSON file of the research data from the remote database.
 
