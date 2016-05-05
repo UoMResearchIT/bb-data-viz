@@ -9,6 +9,8 @@ Actions:
 1. Sync local database with clintouch database 
 2. Create static JSON file from local database and save in web folder for the API call
 
+Run with Python 3+
+
 '''
 
 import pymysql
@@ -24,9 +26,6 @@ class BBAPI():
 		
 		# Sync the local and source database
 		self.syncDatabases()
-		
-		# Generate the JSON data file
-		self.createDataFile()
 	
 	def syncDatabases(self):
 		# Backup the local database
@@ -36,7 +35,9 @@ class BBAPI():
 		file_name = self.getRemoteDB()
 		
 		# Update the local database
-		self.updateLocalDB(file_name)	
+		if self.updateLocalDB(file_name):
+			# Generate the JSON data file
+			self.createDataFile()
 	
 	def backupLocalDB(self):
 		currentTime = str(datetime.datetime.now())
@@ -77,18 +78,27 @@ class BBAPI():
 	
 	def updateLocalDB(self, file_name):
 		# Update the local database with the remote dump file
-		x =\
-			"mysql\
-			-u "+self.config['localusername']+"\
-			-p"+self.config['localpassword']+"\
-			< ~/bb_db_backups/"+file_name+";\
-			cd ~/bb_db_backups;\
-			rm "+file_name+";"
 		
-		os.system(x)
+		if os.path.isfile(file_name):
+			x =\
+				"mysql\
+				-u "+self.config['localusername']+"\
+				-p"+self.config['localpassword']+"\
+				< ~/bb_db_backups/"+file_name+";\
+				cd ~/bb_db_backups;\
+				rm "+file_name+";"
+		
+			os.system(x)
+			
+			return True
+		else:
+			print('\n\t > The update SQL file could not be found. An error may have occurred connecting to the remote database.')
+			print('\t > Local database not updated.\n')
+			
+			return False
 	
 	def createDataFile(self):
-		pass
+		print('Creating json file from local database...')
 		
 		# Do the database query
 		
@@ -97,6 +107,8 @@ class BBAPI():
 		
 		
 		# Save the file in the web folder
+		
+		# Permissions for the file?
 		
 		
 	def getConfig(self):
