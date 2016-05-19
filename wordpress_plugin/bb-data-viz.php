@@ -22,8 +22,10 @@
 class BBDataViz {
 	public function __construct() {
 		// Add the plugin shortcode
-		add_shortcode('bb-data-viz', array($this, 'holdingMapImage'));
+		add_shortcode('bb-data-viz', array($this, 'loadMap'));
 		
+		// Add the files to the page header
+		add_action('wp_head', $this->leafletFiles());
 	}
 	
 	public function holdingMapImage() {
@@ -34,12 +36,29 @@ class BBDataViz {
 	}
 	
 	public function loadMap() {
-		// Get JSON from the API
+		// Add the map div
+		echo '<div id="bb-mapid"></div>';
 		
-		// Parse onto the map
-		
-		// Add map to the page
-		
+		// All the parsing et cetera is done in the js files client side...
+	}
+	
+	public function leafletFiles() {
+		if (!is_admin()) {
+			/*
+			$leaflet = '
+			<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+			<link rel="stylesheet" href="'.plugins_url('css/bb-map.css', __FILE__ ).'" />
+			<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+			<script src="'.plugins_url('js/bb-map.js', __FILE__ ).'"></script>';
+			
+			echo $leaflet;
+			*/
+			
+			wp_enqueue_script('leaflet_css', 'http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css');
+			wp_enqueue_script('bb_css', plugins_url('css/bb-map.css', __FILE__));
+			wp_enqueue_script('leaflet_js', 'http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js');
+			wp_enqueue_script('bb_js', plugins_url('js/bb-map.js' ,__FILE__));
+		}
 	}
 }
 
