@@ -25,7 +25,7 @@ class BBDataViz {
 		add_shortcode('bb-data-viz', array($this, 'loadMap'));
 		
 		// Add the files to the page header
-		add_action('wp_head', $this->leafletFiles());
+		//add_action('wp_head', $this->leafletFiles());
 	}
 	
 	public function holdingMapImage() {
@@ -37,7 +37,8 @@ class BBDataViz {
 	
 	public function loadMap() {
 		// Add the map div
-		echo '<div id="bb-mapid"></div>';
+		//echo '<div id="bb-mapid"></div>';
+		readfile(plugins_url('dataviz.html', __FILE__ ));
 		
 		// All the parsing et cetera is done in the js files client side...
 	}
@@ -52,12 +53,12 @@ class BBDataViz {
 			<script src="'.plugins_url('js/bb-map.js', __FILE__ ).'"></script>';
 			
 			echo $leaflet;
-			*/
 			
 			wp_enqueue_script('leaflet_css', 'http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css');
 			wp_enqueue_script('bb_css', plugins_url('css/bb-map.css', __FILE__));
 			wp_enqueue_script('leaflet_js', 'http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js');
 			wp_enqueue_script('bb_js', plugins_url('js/bb-map.js' ,__FILE__));
+			*/
 		}
 	}
 }

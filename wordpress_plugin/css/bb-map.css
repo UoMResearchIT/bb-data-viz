@@ -1,6 +1,19 @@
 /* Styles data viz map */
 
 #bb-mapid { 
-	height: 180px; 
+	height: 600px; 
 }
 
+#bb-loader {
+	background: #333 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    display: none;
+    font-size: 20px;
+    margin: 150px 49% 0;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    width: 150px;
+    z-index: 1000;
+}
