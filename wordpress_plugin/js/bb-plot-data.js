@@ -4,8 +4,8 @@ onmessage = function(e) {
 	//console.log(e.data);
 	
 	var i=0;
-	//for(i; i<e.data.length; i++) {
-	for(i; i<600; i++) {
+	for(i; i<e.data.length; i++) {
+	//for(i; i<600; i++) {
 		// Pass the message back up from this web worker
 		e.data[i].complete = 0;
 		postMessage(e.data[i]);

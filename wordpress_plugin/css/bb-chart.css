@@ -1,0 +1,30 @@
+/* Styles data viz chart */
+
+#bb-charts {
+	width: 860px;
+	margin: 0 auto;
+}
+
+#bb-gender-chart,
+#bb-age-chart {
+	width: 400px;
+}
+
+#bb-gender-chart-wrapper,
+#bb-age-chart-wrapper {
+	float: left;
+    margin: 50px 10px 0;
+    padding: 10px;
+    width: 400px;
+}
+
+.chart-legend li span{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}
+
+.clear {
+	clear: both;
+}

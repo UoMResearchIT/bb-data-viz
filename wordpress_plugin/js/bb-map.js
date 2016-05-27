@@ -3,7 +3,9 @@
 // Fetch the data
 $(function() {
 	// Build the map
-	if(navigator.geolocation) {
+	var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+
+	if(navigator.geolocation && !isChrome) {
 		navigator.geolocation.getCurrentPosition(function(position, error) {
 			var lat = (!error) ? position.coords.latitude: 53.4668;
 			var lon = (!error) ? position.coords.longitude: -2.2339;
@@ -21,28 +23,46 @@ function plotMapData(lat, lon) {
 
 	// Set the map
 	var mymap = L.map('bb-mapid');
-
-	//var dataURL = "http://130.88.198.51/bb/api/bb.json";
-	var dataURL = "testdata/bb.json";
+	var markers = new L.MarkerClusterGroup();
+	
+	var dataURL = "http://130.88.198.51/bb/api/bb.json";
+	//var dataURL = "testdata/bb.json";
 	
 	var markerCount = 0;
 	
 	$.getJSON(dataURL, function(data) {
 		// When the data is loaded, and the map is loaded, plot the data points
-		console.log(0);
-		
 		mymap.on('load', function(e) {
-			var worker = new Worker('js/bb-plot-data.js');
+			var worker = new Worker('http://britainbreathing.org/wp-content/plugins/bb-data-viz/js/bb-plot-data.js');
 			worker.postMessage(data);
 			
 			worker.onmessage = function(event) {
 				//console.log(event.data);
 				if(!event.data.complete) {
 					// Plot the marker
-					var marker = L.marker([event.data.latitude, event.data.longitude]).addTo(mymap);
+					
+					var marker = L.marker([event.data.latitude, event.data.longitude]);//.addTo(mymap);
 
 					// Add the marker popup
-					marker.bindPopup("<b>"+event.data['Time uploaded to server']+"</b><br>"+event.data['Gender']+"").openPopup();
+					//var howFeeling = (event.data['How feeling'] == 0)? 'Bad': 'Good';
+					
+					var popUp = '<strong>'+event.data['Time uploaded to server']+'</strong><br>'+
+								'Gender: '+event.data['Gender']+'<br>'+
+								'Year of birth: '+event.data['Year of Birth']+'<br>'+
+								'How feeling: '+event.data['How feeling']+'<br>'+
+								'Taken meds today: '+event.data['Taken meds today']+'<br>'+
+								'Nose: '+event.data['Nose']+'<br>'+
+								'Eyes: '+event.data['Eyes']+'<br>'+
+								'Breathing: '+event.data['Breathing']+'<br>'+
+								'Hay fever: '+event.data['hay fever']+'<br>'+
+								'Asthma: '+event.data['asthma']+'<br>'+
+								'Other allergy: '+event.data['other allergy']+
+								'';
+					
+					marker.bindPopup(popUp).openPopup();
+					
+					// Marker clustering
+					markers.addLayer(marker);
 					
 					// Increase the marker count
 					markerCount++;
@@ -63,7 +83,7 @@ function plotMapData(lat, lon) {
 			maxZoom: 18
 		}).addTo(mymap);
 		
-		console.log(1);
+		mymap.addLayer(markers);
 	});
 }
 

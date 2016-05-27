@@ -1,7 +1,19 @@
 /* Styles data viz map */
 
+#bb-data-viz-wrapper h3 {
+    border-bottom: 1px solid #000;
+    font-size: 24px;
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+}
+
+#bb-data-viz-wrapper p {
+	padding: 0 0 10px;
+}
+
 #bb-mapid { 
-	height: 600px; 
+	height: 600px;
+	margin: 20px 0;
 }
 
 #bb-loader {
@@ -10,10 +22,12 @@
     color: #fff;
     display: none;
     font-size: 20px;
-    margin: 150px 49% 0;
+    margin: 150px 40% 0;
     padding: 10px;
     position: absolute;
     text-align: center;
-    width: 150px;
+    width: 250px;
     z-index: 1000;
 }
+
+

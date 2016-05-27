@@ -25,7 +25,9 @@ class BBDataViz {
 		add_shortcode('bb-data-viz', array($this, 'loadMap'));
 		
 		// Add the files to the page header
-		//add_action('wp_head', $this->leafletFiles());
+		if (strpos($_SERVER['REQUEST_URI'], 'data-visualisation') !== false){
+			add_action('wp_head', $this->leafletFiles());
+		}
 	}
 	
 	public function holdingMapImage() {
@@ -37,28 +39,58 @@ class BBDataViz {
 	
 	public function loadMap() {
 		// Add the map div
-		//echo '<div id="bb-mapid"></div>';
-		readfile(plugins_url('dataviz.html', __FILE__ ));
-		
-		// All the parsing et cetera is done in the js files client side...
+		echo "
+			<div id='bb-data-viz-wrapper'>
+				<h3>Mapping the data points</h3>
+				<p>Each response is mapped below, with data clustered into groups. Click the clusters to reveal the single data points. Single data points can be clicked to view the logged data.</p>
+				<div id='bb-mapid'>
+					<div id='bb-loader'>
+						<span id='bb-loader-text'>Loading data...</span><br>
+						<span id='bb-loader-count'>0</span> points
+					</div>
+				</div>
+			
+				<h3>Data summaries</h3>
+				<p>A summary of the data collected is shown in the charts below. </p>
+				<div id='bb-charts'>
+					<div id='bb-gender-chart-wrapper'>
+						<canvas id='bb-gender-chart' width='400' height='400'></canvas>
+						<div id='bb-gender-legend' class='chart-legend'></div>
+					</div>
+	
+	
+					<div id='bb-age-chart-wrapper'>
+						<canvas id='bb-age-chart' width='400' height='400'></canvas>
+						<div id='bb-age-legend' class='chart-legend'></div>
+					</div>
+					<div class='clear'></div>
+				</div>
+			</div>";
+			
+		// All the data parsing etc is done in the js files client side...
 	}
 	
 	public function leafletFiles() {
 		if (!is_admin()) {
-			/*
-			$leaflet = '
-			<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
-			<link rel="stylesheet" href="'.plugins_url('css/bb-map.css', __FILE__ ).'" />
-			<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
-			<script src="'.plugins_url('js/bb-map.js', __FILE__ ).'"></script>';
+			wp_deregister_script('jquery');
+			wp_register_script('jquery', ("http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"), false, '1.3.2');
+			wp_enqueue_script('jquery');
 			
-			echo $leaflet;
+			// Add the header files
+			wp_enqueue_style('leaflet_css', plugins_url('css/leaflet.css', __FILE__));
+			wp_enqueue_style('markercluster_css', plugins_url('css/markercluster.css', __FILE__));
+			wp_enqueue_style('markerclusterd_css', plugins_url('css/markercluster-default.css', __FILE__));
+			wp_enqueue_style('bbmap_css', plugins_url('css/bb-map.css', __FILE__));
+			wp_enqueue_style('bbchart_css', plugins_url('css/bb-chart.css', __FILE__));
 			
-			wp_enqueue_script('leaflet_css', 'http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css');
-			wp_enqueue_script('bb_css', plugins_url('css/bb-map.css', __FILE__));
+			wp_enqueue_script('jquery_js', plugins_url('js/jquery.js', __FILE__));
+			wp_enqueue_script('chart_js', 'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.3/Chart.min.js');
 			wp_enqueue_script('leaflet_js', 'http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js');
-			wp_enqueue_script('bb_js', plugins_url('js/bb-map.js' ,__FILE__));
-			*/
+			wp_enqueue_script('markercluster_js', plugins_url('js/markercluster.js', __FILE__));
+			wp_enqueue_script('bbmap_js', plugins_url('js/bb-map.js' ,__FILE__));
+			wp_enqueue_script('bbchart_js', plugins_url('js/bb-chart.js' ,__FILE__));
+			wp_enqueue_script('bbchartgender_js', plugins_url('js/bb-gender-data.js' ,__FILE__));
+			wp_enqueue_script('bbchartage_js', plugins_url('js/bb-age-data.js' ,__FILE__));
 		}
 	}
 }
