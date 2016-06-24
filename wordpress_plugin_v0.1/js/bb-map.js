@@ -33,7 +33,9 @@ function plotMapData(lat, lon) {
 	$.getJSON(dataURL, function(data) {
 		// When the data is loaded, and the map is loaded, plot the data points
 		mymap.on('load', function(e) {
-			var worker = new Worker('http://britainbreathing.org/wp-content/plugins/bb-data-viz/js/bb-plot-data.js');
+			var hostpath = (window.location.hostname == 'britainbreathing.org') ? 'http://britainbreathing.org/wp-content/plugins/bb-data-viz/' : '';
+			var worker = new Worker(hostpath+'js/bb-plot-data.js');
+			//var worker = new Worker('js/bb-plot-data.js');
 			worker.postMessage(data);
 			
 			worker.onmessage = function(event) {
@@ -41,14 +43,20 @@ function plotMapData(lat, lon) {
 				if(!event.data.complete) {
 					// Plot the marker
 					
-					var marker = L.marker([event.data.latitude, event.data.longitude]);//.addTo(mymap);
+					var markerLat = event.data.latitude;
+					//markerLat = markerLat.toFixed(2);
+					//markerLat = markerLat+Math.floor(Math.random()*20)+1;
+					
+					var markerLon = event.data.longitude;
+					//markerLon = markerLon.toFixed(2);
+					//markerLon = markerLon+Math.floor(Math.random()*20)+1;
+					
+					var marker = L.marker([markerLat, markerLon]);//.addTo(mymap);
 
 					// Add the marker popup
 					//var howFeeling = (event.data['How feeling'] == 0)? 'Bad': 'Good';
 					
 					var popUp = '<strong>'+event.data['Time uploaded to server']+'</strong><br>'+
-								'Gender: '+event.data['Gender']+'<br>'+
-								'Year of birth: '+event.data['Year of Birth']+'<br>'+
 								'How feeling: '+event.data['How feeling']+'<br>'+
 								'Taken meds today: '+event.data['Taken meds today']+'<br>'+
 								'Nose: '+event.data['Nose']+'<br>'+

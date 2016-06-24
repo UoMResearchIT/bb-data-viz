@@ -43,13 +43,14 @@ class BBDataViz {
 			<div id='bb-data-viz-wrapper'>
 				<h3>Mapping the data points</h3>
 				<p>Each response is mapped below, with data clustered into groups. Click the clusters to reveal the single data points. Single data points can be clicked to view the logged data.</p>
+				<p>The location points shown have a random distance added, within 500m, to preserve our participants privacy.</p>
 				<div id='bb-mapid'>
 					<div id='bb-loader'>
 						<span id='bb-loader-text'>Loading data...</span><br>
 						<span id='bb-loader-count'>0</span> points
 					</div>
 				</div>
-			
+				<!--
 				<h3>Data summaries</h3>
 				<p>A summary of the data collected is shown in the charts below. </p>
 				<div id='bb-charts'>
@@ -65,6 +66,7 @@ class BBDataViz {
 					</div>
 					<div class='clear'></div>
 				</div>
+				-->
 			</div>";
 			
 		// All the data parsing etc is done in the js files client side...
@@ -81,16 +83,16 @@ class BBDataViz {
 			wp_enqueue_style('markercluster_css', plugins_url('css/markercluster.css', __FILE__));
 			wp_enqueue_style('markerclusterd_css', plugins_url('css/markercluster-default.css', __FILE__));
 			wp_enqueue_style('bbmap_css', plugins_url('css/bb-map.css', __FILE__));
-			wp_enqueue_style('bbchart_css', plugins_url('css/bb-chart.css', __FILE__));
+			//wp_enqueue_style('bbchart_css', plugins_url('css/bb-chart.css', __FILE__));
 			
 			wp_enqueue_script('jquery_js', plugins_url('js/jquery.js', __FILE__));
-			wp_enqueue_script('chart_js', 'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.3/Chart.min.js');
+			//wp_enqueue_script('chart_js', 'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.3/Chart.min.js');
 			wp_enqueue_script('leaflet_js', 'http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js');
 			wp_enqueue_script('markercluster_js', plugins_url('js/markercluster.js', __FILE__));
 			wp_enqueue_script('bbmap_js', plugins_url('js/bb-map.js' ,__FILE__));
-			wp_enqueue_script('bbchart_js', plugins_url('js/bb-chart.js' ,__FILE__));
-			wp_enqueue_script('bbchartgender_js', plugins_url('js/bb-gender-data.js' ,__FILE__));
-			wp_enqueue_script('bbchartage_js', plugins_url('js/bb-age-data.js' ,__FILE__));
+			//wp_enqueue_script('bbchart_js', plugins_url('js/bb-chart.js' ,__FILE__));
+			//wp_enqueue_script('bbchartgender_js', plugins_url('js/bb-gender-data.js' ,__FILE__));
+			//wp_enqueue_script('bbchartage_js', plugins_url('js/bb-age-data.js' ,__FILE__));
 		}
 	}
 }
