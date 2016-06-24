@@ -10,7 +10,7 @@ function plotMapData() {
 	});
 	
 	var ctaLayer = new google.maps.KmlLayer({
-		url: 'http://130.88.198.51/bb/api/symptom_score2.kml?nocache='+(new Date()).getTime(),
+		url: 'http://130.88.198.51/bb/api/symptom_score.kml?nocache='+(new Date()).getTime(),
 		map: map
 	});
 	
@@ -20,8 +20,8 @@ function plotMapData() {
 function setControls() {
 	// Bind events for the view buttons
 	$('.bb-map-control').click(function() {
-		$('.bb-map-control').removeClass('.bb-map-control-active');
-		$(this).addClass('.bb-map-control-active');
+		$('.bb-map-control').removeClass('bb-map-control-active');
+		$(this).addClass('bb-map-control-active');
 		
 		var dataFile = $(this).data('kml-file');
 		

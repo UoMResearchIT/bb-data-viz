@@ -42,12 +42,18 @@ class BBDataViz {
 		echo "
 			<div id='bb-data-viz-wrapper'>
 				<h3>Mapping the data points</h3>
-				<p>The Britain Breathing data is aggregated and mapped according to UK postcode.</p>
-				<p>The location points shown have a random distance added, within 500m, to preserve our participants privacy.</p>
+				<p>The Britain Breathing data is aggregated and mapped according into the 120 top level UK postcode areas.</p>
+				<div id='bb-map-controls'>
+					<span class='bb-map-control bb-map-control-active' id='bb-map-overview' data-kml-file='symptom_score.kml'>Symptom Overview</span>
+					<span class='bb-map-control' id='bb-map-feeling' data-kml-file='how_feeling_score.kml'>How feeling symptoms</span>
+					<span class='bb-map-control' id='bb-map-nose' data-kml-file='nose_score.kml'>Nose symptoms</span>
+					<span class='bb-map-control' id='bb-map-eyes' data-kml-file='eyes_score.kml'>Eyes symptoms</span>
+					<span class='bb-map-control' id='bb-map-breathing' data-kml-file='breathing_score.kml'>Breathing symptoms</span>
+				</div>
+
 				<div id='bb-mapid'>
 					<div id='bb-loader'>
-						<span id='bb-loader-text'>Loading data...</span><br>
-						<span id='bb-loader-count'>0</span> points
+						<span id='bb-loader-text'></span>
 					</div>
 				</div>
 			</div>";
@@ -66,7 +72,7 @@ class BBDataViz {
 			wp_enqueue_style('bbmap_css', plugins_url('css/bb-map.css', __FILE__));
 			
 			wp_enqueue_script('jquery_js', plugins_url('js/jquery.js', __FILE__));
-			wp_enqueue_script('leaflet_js', 'http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js');
+			wp_enqueue_script('gmaps_js', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBSn93izC-nPH7tSk1_-BK6D59whEpWFQo&callback=plotMapData');
 			wp_enqueue_script('bbmap_js', plugins_url('js/bb-map.js' ,__FILE__));
 		}
 	}

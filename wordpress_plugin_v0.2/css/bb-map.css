@@ -34,7 +34,7 @@
 
 }
 
-#bb-map-controls span {
+.bb-map-control {
 	background: #6fb961;
 	padding: 10px;
 	text-align: center;
@@ -43,5 +43,6 @@
 }
 
 .bb-map-control-active {
-	background: #61a9d3;
+	background: #61a9d3!important;
+	padding: 10px 10px 12px;
 }
