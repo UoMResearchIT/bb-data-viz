@@ -195,14 +195,14 @@ class BBAPI():
 			postcodeList[postcodeStub]['nose_list'].append(row[5])
 			postcodeList[postcodeStub]['eyes_list'].append(row[6])
 			postcodeList[postcodeStub]['breathing_list'].append(row[7])
-			
-			# Tally the totals
-			postcodeList[postcodeStub]['how_feeling_total'] = int(row[3])+int(postcodeList[postcodeStub]['how_feeling_total'])
-			postcodeList[postcodeStub]['nose_total'] = int(row[5])+int(postcodeList[postcodeStub]['nose_total'])
-			postcodeList[postcodeStub]['eyes_total'] = int(row[6])+int(postcodeList[postcodeStub]['eyes_total'])
-			postcodeList[postcodeStub]['breathing_total'] = int(row[7])+int(postcodeList[postcodeStub]['breathing_total'])
-			postcodeList[postcodeStub]['responses_total'] = int(postcodeList[postcodeStub]['responses_total'])+1
-			
+		
+		# Tally the totals
+		postcodeList[postcodeStub]['how_feeling_total'] = int(row[3])+int(postcodeList[postcodeStub]['how_feeling_total'])
+		postcodeList[postcodeStub]['nose_total'] = int(row[5])+int(postcodeList[postcodeStub]['nose_total'])
+		postcodeList[postcodeStub]['eyes_total'] = int(row[6])+int(postcodeList[postcodeStub]['eyes_total'])
+		postcodeList[postcodeStub]['breathing_total'] = int(row[7])+int(postcodeList[postcodeStub]['breathing_total'])
+		postcodeList[postcodeStub]['responses_total'] = int(postcodeList[postcodeStub]['responses_total'])+1
+		
 		# Calculate overall severity of symptoms score for each postcode: total of the symptom medians
 		for key, value in postcodeList.items():
 			try:

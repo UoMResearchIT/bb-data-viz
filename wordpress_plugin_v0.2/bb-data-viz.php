@@ -68,12 +68,11 @@ class BBDataViz {
 			wp_enqueue_script('jquery');
 			
 			// Add the header files
-			wp_enqueue_style('leaflet_css', plugins_url('css/leaflet.css', __FILE__));
 			wp_enqueue_style('bbmap_css', plugins_url('css/bb-map.css', __FILE__));
 			
 			wp_enqueue_script('jquery_js', plugins_url('js/jquery.js', __FILE__));
-			wp_enqueue_script('gmaps_js', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBSn93izC-nPH7tSk1_-BK6D59whEpWFQo&callback=plotMapData');
 			wp_enqueue_script('bbmap_js', plugins_url('js/bb-map.js' ,__FILE__));
+			wp_enqueue_script('gmaps_js', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBSn93izC-nPH7tSk1_-BK6D59whEpWFQo&callback=plotMapData');
 		}
 	}
 }

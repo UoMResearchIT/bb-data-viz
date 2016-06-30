@@ -1,13 +1,9 @@
 /* Plot the data viz map */
 var map;
-setLoader(1, 'Loading map...')
 
 function plotMapData() {
 	// Set the map
-	map = new google.maps.Map(document.getElementById('bb-mapid'), {
-		zoom: 12,
-		center: {lat: 53.4668, lng: -2.2339}
-	});
+	map = new google.maps.Map(document.getElementById('bb-mapid'), {});
 	
 	var ctaLayer = new google.maps.KmlLayer({
 		url: 'http://130.88.198.51/bb/api/symptom_score.kml?nocache='+(new Date()).getTime(),
@@ -53,5 +49,7 @@ function setLoader(on, msg) {
 }
 
 $(function() {
+	setLoader(1, 'Loading map...');
+	plotMapData();
 	setControls();
 });	
