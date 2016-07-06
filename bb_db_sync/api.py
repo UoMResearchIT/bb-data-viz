@@ -196,12 +196,12 @@ class BBAPI():
 			postcodeList[postcodeStub]['eyes_list'].append(row[6])
 			postcodeList[postcodeStub]['breathing_list'].append(row[7])
 		
-		# Tally the totals
-		postcodeList[postcodeStub]['how_feeling_total'] = int(row[3])+int(postcodeList[postcodeStub]['how_feeling_total'])
-		postcodeList[postcodeStub]['nose_total'] = int(row[5])+int(postcodeList[postcodeStub]['nose_total'])
-		postcodeList[postcodeStub]['eyes_total'] = int(row[6])+int(postcodeList[postcodeStub]['eyes_total'])
-		postcodeList[postcodeStub]['breathing_total'] = int(row[7])+int(postcodeList[postcodeStub]['breathing_total'])
-		postcodeList[postcodeStub]['responses_total'] = int(postcodeList[postcodeStub]['responses_total'])+1
+			# Tally the totals
+			postcodeList[postcodeStub]['how_feeling_total'] = int(row[3])+int(postcodeList[postcodeStub]['how_feeling_total'])
+			postcodeList[postcodeStub]['nose_total'] = int(row[5])+int(postcodeList[postcodeStub]['nose_total'])
+			postcodeList[postcodeStub]['eyes_total'] = int(row[6])+int(postcodeList[postcodeStub]['eyes_total'])
+			postcodeList[postcodeStub]['breathing_total'] = int(row[7])+int(postcodeList[postcodeStub]['breathing_total'])
+			postcodeList[postcodeStub]['responses_total'] = int(postcodeList[postcodeStub]['responses_total'])+1
 		
 		# Calculate overall severity of symptoms score for each postcode: total of the symptom medians
 		for key, value in postcodeList.items():
@@ -217,6 +217,9 @@ class BBAPI():
 		# Sort the list
 		sorted(postcodeList)
 		
+		#print(postcodeList)
+		#sys.exit(0)
+		
 		# Close the connections	
 		lcur.close()
 		lconn.close()
@@ -229,7 +232,7 @@ class BBAPI():
 		root = tree.getroot()
 		
 		for key, value in postcodeList.items():
-			for placemark in root[0][6]:
+			for placemark in root[0][7]:
 				style = placemark[0]
 				name = placemark[1]
 				desc = placemark[2]
@@ -247,7 +250,9 @@ class BBAPI():
 									<p>The symptom score is calculated as the total of the symptom medians.</p>
 								""".format(postcodeList[key]['responses_total'], postcodeList[key]['symptom_score'])
 					
-					if postcodeList[key]['symptom_score'] < 1:
+					if postcodeList[key]['symptom_score'] == 0:
+						style.text = '#none'
+					elif postcodeList[key]['symptom_score'] > 0 and postcodeList[key]['symptom_score'] < 1:
 						style.text = '#green'
 					elif postcodeList[key]['symptom_score'] >= 1 and postcodeList[key]['symptom_score'] < 2:
 						style.text = '#yellow'
@@ -264,7 +269,7 @@ class BBAPI():
 		root = tree.getroot()
 		
 		for key, value in postcodeList.items():
-			for placemark in root[0][6]:
+			for placemark in root[0][7]:
 				style = placemark[0]
 				name = placemark[1]
 				desc = placemark[2]
@@ -281,7 +286,9 @@ class BBAPI():
 									</table>
 								""".format(postcodeList[key]['responses_total'], postcodeList[key]['how_feeling_median'])
 					
-					if postcodeList[key]['how_feeling_median'] < 1:
+					if postcodeList[key]['how_feeling_median'] == 0:
+						style.text = '#none'
+					elif postcodeList[key]['how_feeling_median'] > 0 and postcodeList[key]['how_feeling_median'] < 1:
 						style.text = '#green'
 					elif postcodeList[key]['how_feeling_median'] >= 1 and postcodeList[key]['how_feeling_median'] < 2:
 						style.text = '#yellow'
@@ -298,7 +305,7 @@ class BBAPI():
 		root = tree.getroot()
 		
 		for key, value in postcodeList.items():
-			for placemark in root[0][6]:
+			for placemark in root[0][7]:
 				style = placemark[0]
 				name = placemark[1]
 				desc = placemark[2]
@@ -315,7 +322,9 @@ class BBAPI():
 									</table>
 								""".format(postcodeList[key]['responses_total'], postcodeList[key]['nose_median'])
 					
-					if postcodeList[key]['nose_median'] < 1:
+					if postcodeList[key]['nose_median'] == 0:
+						style.text = '#none'
+					elif postcodeList[key]['nose_median'] > 0 and postcodeList[key]['nose_median'] < 1:
 						style.text = '#green'
 					elif postcodeList[key]['nose_median'] >= 1 and postcodeList[key]['nose_median'] < 2:
 						style.text = '#yellow'
@@ -332,7 +341,7 @@ class BBAPI():
 		root = tree.getroot()
 		
 		for key, value in postcodeList.items():
-			for placemark in root[0][6]:
+			for placemark in root[0][7]:
 				style = placemark[0]
 				name = placemark[1]
 				desc = placemark[2]
@@ -349,7 +358,9 @@ class BBAPI():
 									</table>
 								""".format(postcodeList[key]['responses_total'], postcodeList[key]['eyes_median'])
 					
-					if postcodeList[key]['eyes_median'] < 1:
+					if postcodeList[key]['eyes_median'] == 0:
+						style.text = '#none'
+					elif postcodeList[key]['eyes_median'] > 0 and postcodeList[key]['eyes_median'] < 1:
 						style.text = '#green'
 					elif postcodeList[key]['eyes_median'] >= 1 and postcodeList[key]['eyes_median'] < 2:
 						style.text = '#yellow'
@@ -366,7 +377,7 @@ class BBAPI():
 		root = tree.getroot()
 		
 		for key, value in postcodeList.items():
-			for placemark in root[0][6]:
+			for placemark in root[0][7]:
 				style = placemark[0]
 				name = placemark[1]
 				desc = placemark[2]
@@ -383,7 +394,9 @@ class BBAPI():
 									</table>
 								""".format(postcodeList[key]['responses_total'], postcodeList[key]['breathing_median'])
 					
-					if postcodeList[key]['breathing_median'] < 1:
+					if postcodeList[key]['breathing_median'] == 0:
+						style.text = '#none'
+					elif postcodeList[key]['breathing_median'] > 0 and postcodeList[key]['breathing_median'] < 1:
 						style.text = '#green'
 					elif postcodeList[key]['breathing_median'] >= 1 and postcodeList[key]['breathing_median'] < 2:
 						style.text = '#yellow'

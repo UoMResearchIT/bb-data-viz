@@ -42,7 +42,9 @@ class BBDataViz {
 		echo "
 			<div id='bb-data-viz-wrapper'>
 				<h3>Mapping the data points</h3>
+				
 				<p>The Britain Breathing data is aggregated and mapped according into the 120 top level UK postcode areas.</p>
+			
 				<div id='bb-map-controls'>
 					<span class='bb-map-control bb-map-control-active' id='bb-map-overview' data-kml-file='symptom_score.kml'>Symptom Overview</span>
 					<span class='bb-map-control' id='bb-map-feeling' data-kml-file='how_feeling_score.kml'>How feeling symptoms</span>
@@ -55,6 +57,14 @@ class BBDataViz {
 					<div id='bb-loader'>
 						<span id='bb-loader-text'></span>
 					</div>
+				</div>
+				
+				<div id='bb-map-legend'>
+					<h4>Median symptom score by UK postcode:</h4>
+					<span class='bb-map-key' id='bb-map-key-green'>Between 0 and 1</span>
+					<span class='bb-map-key' id='bb-map-key-yellow'>Greater than or equal to 1 and less than 2</span>
+					<span class='bb-map-key' id='bb-map-key-orange'>Greater than or equal to 2 and less than 3</span>
+					<span class='bb-map-key' id='bb-map-key-red'>Greater than 3</span>
 				</div>
 			</div>";
 			

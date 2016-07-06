@@ -46,3 +46,28 @@
 	background: #61a9d3!important;
 	padding: 10px 10px 12px;
 }
+
+#bb-map-legend h4 {
+	padding: 0 0 5px;
+}
+
+.bb-map-key {
+	padding: 10px;
+}
+
+#bb-map-key-green {
+	border-left: 10px solid #00FF00;
+}
+
+#bb-map-key-yellow {
+	border-left: 10px solid #FFFF00;
+}
+
+#bb-map-key-orange {
+	border-left: 10px solid #FF8C00;
+}
+
+#bb-map-key-red {
+	border-left: 10px solid #FF0000;
+}
+
