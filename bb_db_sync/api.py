@@ -7,10 +7,10 @@ This file is called every 24 hours (cronjob)
 Actions:
 
 1. Sync local database with clintouch database 
-2. Create static JSON file from local database and save in web folder for the API call
+2. Create static KML files from local database and save in web folder for the API call
 
 Run with Python 3+
-pip3 install { any needed modules }
+pip3 install { any needed modules below }
 
 '''
 
