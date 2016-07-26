@@ -2,7 +2,7 @@
 
 Britain Breathing data visualisation Wordpress plugin and data API.
 
-Includes api.py which generates a static JSON file of the research data from the remote database.
+Includes api.py which generates static KML files of the research data from the local database.
 
 api.py dependencies:
 

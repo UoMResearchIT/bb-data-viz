@@ -2,7 +2,7 @@
 
 '''
 
-This file is called every 24 hours (cronjob)
+This file is called once a week (cronjob) to sync the databases and update the API
 
 Actions:
 
