@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- UK postcodes KML from: https://en.wikipedia.org/w/index.php?title=Template:Attached_KML/List_of_postcode_areas_in_the_United_Kingdom&action=raw -->
 <kml xmlns="http://www.opengis.net/kml/2.2">
 	<Document>
 		<Style id="none">
@@ -66,14 +64,20 @@
 				<outline>3</outline>
 			</PolyStyle>
 		</Style>
-		
+	
 		<name>Data for British postcode areas</name>
 		<description>Postcode areas in the United Kingdom and Crown dependencies</description>
 		<Folder>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#orange</styleUrl>
 				<name>Data for postcode AB</name>
-				<description>AB postcode area</description>
+				<description respondents="10" symptom-score="2">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -85,7 +89,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode AL</name>
-				<description>AL postcode area</description>
+				<description respondents="10" symptom-score="0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -95,9 +105,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#red</styleUrl>
 				<name>Data for postcode B</name>
-				<description>B postcode area</description>
+				<description respondents="237" symptom-score="3.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;237&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;3.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -109,7 +125,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode BA</name>
-				<description>BA postcode area</description>
+				<description respondents="94" symptom-score="0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;94&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -121,7 +143,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode BB</name>
-				<description>BB postcode area</description>
+				<description respondents="104" symptom-score="0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;104&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -131,9 +159,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#red</styleUrl>
 				<name>Data for postcode BD</name>
-				<description>BD postcode area</description>
+				<description respondents="33" symptom-score="4.5">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;33&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;4.5&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -143,9 +177,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#orange</styleUrl>
 				<name>Data for postcode BH</name>
-				<description>BH postcode area</description>
+				<description respondents="12" symptom-score="2">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;12&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -155,9 +195,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode BL</name>
-				<description>BL postcode area</description>
+				<description respondents="24" symptom-score="1">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;24&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -167,9 +213,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode BN</name>
-				<description>BN postcode area</description>
+				<description respondents="159" symptom-score="1.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;159&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -181,7 +233,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode BR</name>
-				<description>BR postcode area</description>
+				<description respondents="86" symptom-score="0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;86&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -191,9 +249,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#orange</styleUrl>
 				<name>Data for postcode BS</name>
-				<description>BS postcode area</description>
+				<description respondents="357" symptom-score="2.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;357&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;2.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -203,9 +267,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode BT</name>
-				<description>BT postcode area</description>
+				<description respondents="70" symptom-score="1">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;70&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -226,7 +296,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode CA</name>
-				<description>CA postcode area</description>
+				<description respondents="9" symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;9&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -236,9 +312,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode CB</name>
-				<description>CB postcode area</description>
+				<description respondents="275" symptom-score="1.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;275&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -248,9 +330,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode CF</name>
-				<description>CF postcode area</description>
+				<description respondents="101" symptom-score="1.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;101&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -262,7 +350,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode CH</name>
-				<description>CH postcode area</description>
+				<description respondents="29" symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;29&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -272,9 +366,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode CM</name>
-				<description>CM postcode area</description>
+				<description respondents="211" symptom-score="1.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;211&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -284,9 +384,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#orange</styleUrl>
 				<name>Data for postcode CO</name>
-				<description>CO postcode area</description>
+				<description respondents="38" symptom-score="2">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;38&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -296,9 +402,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#red</styleUrl>
 				<name>Data for postcode CR</name>
-				<description>CR postcode area</description>
+				<description respondents="58" symptom-score="4">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;58&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -310,7 +422,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode CT</name>
-				<description>CT postcode area</description>
+				<description respondents="49" symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;49&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -322,7 +440,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode CV</name>
-				<description>CV postcode area</description>
+				<description respondents="133" symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;133&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -334,7 +458,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode CW</name>
-				<description>CW postcode area</description>
+				<description respondents="121" symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;121&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -346,7 +476,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode DA</name>
-				<description>DA postcode area</description>
+				<description respondents="53" symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;53&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -356,9 +492,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode DD</name>
-				<description>DD postcode area</description>
+				<description respondents="63" symptom-score="1.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;63&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -370,7 +512,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode DE</name>
-				<description>DE postcode area</description>
+				<description respondents="108" symptom-score="0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;108&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -380,9 +528,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#orange</styleUrl>
 				<name>Data for postcode DG</name>
-				<description>DG postcode area</description>
+				<description respondents="10" symptom-score="2">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -392,9 +546,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#orange</styleUrl>
 				<name>Data for postcode DH</name>
-				<description>DH postcode area</description>
+				<description respondents="25" symptom-score="2.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;25&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;2.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -406,7 +566,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode DL</name>
-				<description>DL postcode area</description>
+				<description respondents="18" symptom-score="0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;18&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -418,7 +584,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode DN</name>
-				<description>DN postcode area</description>
+				<description respondents="86" symptom-score="0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;86&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -428,9 +600,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#red</styleUrl>
 				<name>Data for postcode DT</name>
-				<description>DT postcode area</description>
+				<description respondents="18" symptom-score="5">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;18&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -440,9 +618,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#red</styleUrl>
 				<name>Data for postcode DY</name>
-				<description>DY postcode area</description>
+				<description respondents="1" symptom-score="3.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;3.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -452,9 +636,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#red</styleUrl>
 				<name>Data for postcode E</name>
-				<description>E postcode area</description>
+				<description respondents="64" symptom-score="4">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;64&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -464,9 +654,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#orange</styleUrl>
 				<name>Data for postcode EC</name>
-				<description>EC postcode area</description>
+				<description respondents="141" symptom-score="2.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;141&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;2.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -478,7 +674,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode EH</name>
-				<description>EH postcode area</description>
+				<description respondents="146" symptom-score="0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;146&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -490,7 +692,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode EN</name>
-				<description>EN postcode area</description>
+				<description respondents="83" symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;83&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -500,9 +708,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode EX</name>
-				<description>EX postcode area</description>
+				<description respondents="201" symptom-score="1.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;201&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -523,7 +737,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode FK</name>
-				<description>FK postcode area</description>
+				<description respondents="116" symptom-score="0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;116&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -535,7 +755,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode FY</name>
-				<description>FY postcode area</description>
+				<description respondents="16" symptom-score="0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;16&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -545,9 +771,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#orange</styleUrl>
 				<name>Data for postcode G</name>
-				<description>G postcode area</description>
+				<description respondents="97" symptom-score="2.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;97&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;2.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -557,9 +789,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode GL</name>
-				<description>GL postcode area</description>
+				<description respondents="196" symptom-score="1">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;196&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -569,9 +807,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode GU</name>
-				<description>GU postcode area</description>
+				<description respondents="167" symptom-score="1.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;167&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -595,7 +839,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode HA</name>
-				<description>HA postcode area</description>
+				<description respondents="45" symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;45&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -605,9 +855,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#orange</styleUrl>
 				<name>Data for postcode HD</name>
-				<description>HD postcode area</description>
+				<description respondents="74" symptom-score="2">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;74&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -617,9 +873,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode HG</name>
-				<description>HG postcode area</description>
+				<description respondents="102" symptom-score="1">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;102&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -629,9 +891,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#orange</styleUrl>
 				<name>Data for postcode HP</name>
-				<description>HP postcode area</description>
+				<description respondents="89" symptom-score="2.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;89&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;2.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -641,9 +909,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#green</styleUrl>
 				<name>Data for postcode HR</name>
-				<description>HR postcode area</description>
+				<description respondents="15" symptom-score="0.5">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0.5&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -655,7 +929,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode HS</name>
-				<description>HS postcode area</description>
+				<description respondents="0" symptom-score="0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -667,7 +947,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode HU</name>
-				<description>HU postcode area</description>
+				<description respondents="61" symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;61&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -677,9 +963,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode HX</name>
-				<description>HX postcode area</description>
+				<description respondents="10" symptom-score="1">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -691,7 +983,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode IG</name>
-				<description>IG postcode area</description>
+				<description respondents="5" symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -715,7 +1013,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode IP</name>
-				<description>IP postcode area</description>
+				<description respondents="164" symptom-score="0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;164&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -725,9 +1029,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#red</styleUrl>
 				<name>Data for postcode IV</name>
-				<description>IV postcode area</description>
+				<description respondents="15" symptom-score="3.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;3.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -749,9 +1059,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#orange</styleUrl>
 				<name>Data for postcode KA</name>
-				<description>KA postcode area</description>
+				<description respondents="30" symptom-score="2">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;30&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -770,9 +1086,15 @@
 				</MultiGeometry>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#orange</styleUrl>
 				<name>Data for postcode KT</name>
-				<description>KT postcode area</description>
+				<description respondents="133" symptom-score="2.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;133&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;2.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -784,7 +1106,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode KW</name>
-				<description>KW postcode area</description>
+				<description respondents="0" symptom-score="0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -803,9 +1131,15 @@
 				</MultiGeometry>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#orange</styleUrl>
 				<name>Data for postcode KY</name>
-				<description>KY postcode area</description>
+				<description respondents="55" symptom-score="2.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;55&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;2.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -815,9 +1149,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode L</name>
-				<description>L postcode area</description>
+				<description respondents="224" symptom-score="1">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;224&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -829,7 +1169,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode LA</name>
-				<description>LA postcode area</description>
+				<description respondents="9" symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;9&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -839,9 +1185,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode LD</name>
-				<description>LD postcode area</description>
+				<description respondents="1" symptom-score="1.5">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1.5&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -851,9 +1203,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode LE</name>
-				<description>LE postcode area</description>
+				<description respondents="35" symptom-score="1.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;35&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -863,9 +1221,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode LL</name>
-				<description>LL postcode area</description>
+				<description respondents="80" symptom-score="1">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;80&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -875,9 +1239,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#red</styleUrl>
 				<name>Data for postcode LN</name>
-				<description>LN postcode area</description>
+				<description respondents="102" symptom-score="3">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;102&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -887,9 +1257,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode LS</name>
-				<description>LS postcode area</description>
+				<description respondents="184" symptom-score="1">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;184&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -901,7 +1277,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode LU</name>
-				<description>LU postcode area</description>
+				<description respondents="21" symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;21&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -911,9 +1293,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode M</name>
-				<description>M postcode area</description>
+				<description respondents="314" symptom-score="1">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;314&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -923,9 +1311,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode ME</name>
-				<description>ME postcode area</description>
+				<description respondents="64" symptom-score="1">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;64&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -935,9 +1329,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode MK</name>
-				<description>MK postcode area</description>
+				<description respondents="104" symptom-score="1">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;104&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -949,7 +1349,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode ML</name>
-				<description>ML postcode area</description>
+				<description respondents="67" symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;67&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -959,9 +1365,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#red</styleUrl>
 				<name>Data for postcode N</name>
-				<description>N postcode area</description>
+				<description respondents="177" symptom-score="3.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;177&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;3.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -973,7 +1385,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode NE</name>
-				<description>NE postcode area</description>
+				<description respondents="109" symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;109&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -983,9 +1401,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode NG</name>
-				<description>NG postcode area</description>
+				<description respondents="123" symptom-score="1.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;123&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -995,9 +1419,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#orange</styleUrl>
 				<name>Data for postcode NN</name>
-				<description>NN postcode area</description>
+				<description respondents="277" symptom-score="2.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;277&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;2.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1007,9 +1437,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#orange</styleUrl>
 				<name>Data for postcode NP</name>
-				<description>NP postcode area</description>
+				<description respondents="37" symptom-score="2.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;37&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;2.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1019,9 +1455,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#red</styleUrl>
 				<name>Data for postcode NR</name>
-				<description>NR postcode area</description>
+				<description respondents="116" symptom-score="3">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;116&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1031,9 +1473,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode NW</name>
-				<description>NW postcode area</description>
+				<description respondents="116" symptom-score="1">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;116&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1043,9 +1491,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode OL</name>
-				<description>OL postcode area</description>
+				<description respondents="28" symptom-score="1">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;28&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1055,9 +1509,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#orange</styleUrl>
 				<name>Data for postcode OX</name>
-				<description>OX postcode area</description>
+				<description respondents="320" symptom-score="2">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;320&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1069,7 +1529,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode PA</name>
-				<description>PA postcode area</description>
+				<description respondents="7" symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -1095,9 +1561,15 @@
 				</MultiGeometry>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#orange</styleUrl>
 				<name>Data for postcode PE</name>
-				<description>PE postcode area</description>
+				<description respondents="90" symptom-score="2">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;90&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1107,9 +1579,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#red</styleUrl>
 				<name>Data for postcode PH</name>
-				<description>PH postcode area</description>
+				<description respondents="15" symptom-score="3.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;3.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -1142,9 +1620,15 @@
 				</MultiGeometry>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode PL</name>
-				<description>PL postcode area</description>
+				<description respondents="33" symptom-score="1.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;33&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1156,7 +1640,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode PO</name>
-				<description>PO postcode area</description>
+				<description respondents="155" symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;155&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1168,7 +1658,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode PR</name>
-				<description>PR postcode area</description>
+				<description respondents="4" symptom-score="0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1178,9 +1674,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode RG</name>
-				<description>RG postcode area</description>
+				<description respondents="264" symptom-score="1">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;264&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1190,9 +1692,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#red</styleUrl>
 				<name>Data for postcode RH</name>
-				<description>RH postcode area</description>
+				<description respondents="98" symptom-score="3">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;98&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1204,7 +1712,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode RM</name>
-				<description>RM postcode area</description>
+				<description respondents="46" symptom-score="0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;46&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1216,7 +1730,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode S</name>
-				<description>S postcode area</description>
+				<description respondents="185" symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;185&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1226,9 +1746,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#red</styleUrl>
 				<name>Data for postcode SA</name>
-				<description>SA postcode area</description>
+				<description respondents="51" symptom-score="4.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;51&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;4.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1238,9 +1764,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode SE</name>
-				<description>SE postcode area</description>
+				<description respondents="209" symptom-score="1.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;209&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1250,9 +1782,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#red</styleUrl>
 				<name>Data for postcode SG</name>
-				<description>SG postcode area</description>
+				<description respondents="123" symptom-score="3.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;123&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;3.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1264,7 +1802,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode SK</name>
-				<description>SK postcode area</description>
+				<description respondents="177" symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;177&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1274,9 +1818,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode SL</name>
-				<description>SL postcode area</description>
+				<description respondents="26" symptom-score="1">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;26&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1288,7 +1838,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode SM</name>
-				<description>SM postcode area</description>
+				<description respondents="15" symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1298,9 +1854,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#orange</styleUrl>
 				<name>Data for postcode SN</name>
-				<description>SN postcode area</description>
+				<description respondents="93" symptom-score="2.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;93&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;2.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1312,7 +1874,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode SO</name>
-				<description>SO postcode area</description>
+				<description respondents="210" symptom-score="0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;210&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1322,9 +1890,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#red</styleUrl>
 				<name>Data for postcode SP</name>
-				<description>SP postcode area</description>
+				<description respondents="11" symptom-score="4.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;11&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;4.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1336,7 +1910,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode SR</name>
-				<description>SR postcode area</description>
+				<description respondents="0" symptom-score="0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1346,9 +1926,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#green</styleUrl>
 				<name>Data for postcode SS</name>
-				<description>SS postcode area</description>
+				<description respondents="13" symptom-score="0.5">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;13&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0.5&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1358,9 +1944,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode ST</name>
-				<description>ST postcode area</description>
+				<description respondents="116" symptom-score="1">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;116&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1370,9 +1962,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#orange</styleUrl>
 				<name>Data for postcode SW</name>
-				<description>SW postcode area</description>
+				<description respondents="224" symptom-score="2">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;224&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1384,7 +1982,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode SY</name>
-				<description>SY postcode area</description>
+				<description respondents="155" symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;155&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1394,9 +1998,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode TA</name>
-				<description>TA postcode area</description>
+				<description respondents="41" symptom-score="1.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;41&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1408,7 +2018,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode TD</name>
-				<description>TD postcode area</description>
+				<description respondents="7" symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1420,7 +2036,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode TF</name>
-				<description>TF postcode area</description>
+				<description respondents="70" symptom-score="0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;70&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1432,7 +2054,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode TN</name>
-				<description>TN postcode area</description>
+				<description respondents="128" symptom-score="0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;128&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1442,9 +2070,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#orange</styleUrl>
 				<name>Data for postcode TQ</name>
-				<description>TQ postcode area</description>
+				<description respondents="112" symptom-score="2">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;112&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1454,9 +2088,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode TR</name>
-				<description>TR postcode area</description>
+				<description respondents="44" symptom-score="1">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;44&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -1475,9 +2115,15 @@
 				</MultiGeometry>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#red</styleUrl>
 				<name>Data for postcode TS</name>
-				<description>TS postcode area</description>
+				<description respondents="47" symptom-score="3.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;47&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;3.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1489,7 +2135,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode TW</name>
-				<description>TW postcode area</description>
+				<description respondents="95" symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;95&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1501,7 +2153,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode UB</name>
-				<description>UB postcode area</description>
+				<description respondents="66" symptom-score="0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;66&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1511,9 +2169,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#orange</styleUrl>
 				<name>Data for postcode W</name>
-				<description>W postcode area</description>
+				<description respondents="63" symptom-score="2.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;63&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;2.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1525,7 +2189,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode WA</name>
-				<description>WA postcode area</description>
+				<description respondents="83" symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;83&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1535,9 +2205,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode WC</name>
-				<description>WC postcode area</description>
+				<description respondents="26" symptom-score="1">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;26&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1547,9 +2223,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#orange</styleUrl>
 				<name>Data for postcode WD</name>
-				<description>WD postcode area</description>
+				<description respondents="57" symptom-score="2.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;57&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;2.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1559,9 +2241,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#red</styleUrl>
 				<name>Data for postcode WF</name>
-				<description>WF postcode area</description>
+				<description respondents="178" symptom-score="5">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;178&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1571,9 +2259,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#red</styleUrl>
 				<name>Data for postcode WN</name>
-				<description>WN postcode area</description>
+				<description respondents="117" symptom-score="3.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;117&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;3.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1583,9 +2277,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode WR</name>
-				<description>WR postcode area</description>
+				<description respondents="47" symptom-score="1.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;47&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1597,7 +2297,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode WS</name>
-				<description>WS postcode area</description>
+				<description respondents="3" symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1607,9 +2313,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#orange</styleUrl>
 				<name>Data for postcode WV</name>
-				<description>WV postcode area</description>
+				<description respondents="10" symptom-score="2">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1619,9 +2331,15 @@
 				</Polygon>
 			</Placemark>
 			<Placemark>
-				<styleUrl>#none</styleUrl>
+				<styleUrl>#yellow</styleUrl>
 				<name>Data for postcode YO</name>
-				<description>YO postcode area</description>
+				<description respondents="234" symptom-score="1">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;234&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1633,7 +2351,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode ZE</name>
-				<description>ZE postcode area</description>
+				<description respondents="0" symptom-score="0">&lt;p&gt;Data summary:&lt;/p&gt;
+									&lt;table&gt;
+									&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+									&lt;tr&gt;&lt;td&gt;Symptom score&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+									&lt;/table&gt;
+									&lt;p&gt;The symptom score is calculated as the total of the symptom medians.&lt;/p&gt;
+								</description>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>

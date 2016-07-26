@@ -27,6 +27,8 @@ import statistics
 import xml.etree.ElementTree as ET
 import time
 import datetime
+import pprint
+import numpy as np
 
 class BBAPI():
 	'Main class for creating the data file for the Britain Breathing data visualisation plugin'
@@ -36,17 +38,19 @@ class BBAPI():
 		self.config = self.getConfig()
 		
 		# Sync the local and source database
-		self.syncDatabases()
+		#self.syncDatabases()
+		
+		# TESTING
+		# self.createDataFile()
+		# self.addPostcodesToDB()
+		self.createDataFile()
 	
 	def syncDatabases(self):
 		# Backup the local database
-		#self.backupLocalDB()		
+		self.backupLocalDB()		
 		
 		# Get an update of data from the remote database
-		#self.getRemoteDB()
-		
-		# TEST
-		self.createDataFile()
+		self.getRemoteDB()
 	
 	def backupLocalDB(self):
 		x =\
@@ -62,6 +66,19 @@ class BBAPI():
 		os.system(x)
 	
 	def getRemoteDB(self):
+		# TODO: This needs to add new rows since the last update, rather than replace everything.
+		'''
+		# Get the local database last record timestamp
+		conn = pymysql.connect(host='127.0.0.1', port=3306, user=self.config['localusername'], passwd=self.config['localpassword'], db=self.config['localdbname'])
+		cur = conn.cursor()
+		cur.execute('SELECT Time_uploaded_to_server FROM remotedata ORDER BY Time_uploaded_to_server ASC;')
+		lts = cur.fetchone()
+		lastTimestamp = lts[0]
+		
+		cur.close()
+		conn.close()
+		'''
+		
 		# The database query
 		sql = """select enc.dateTime, enc.pushedToServerDateTime, enc.howFeeling, enc.takenMedsToday+0, 
 				 MAX(IF(Observation.question_id = "20140544-1bee-4d02-b764-d80102437adc", Observation.valueNumeric, NULL)) AS Nose, 
@@ -115,7 +132,7 @@ class BBAPI():
 		rowcount = 0
 		for row in cur:
 			#print(row[0])
-			sql = """INSERT INTO remotedata (id, Time_answered_on_phone, Time_uploaded_to_server, How_feeling, Taken_meds_today, Nose, Eyes, Breathing, Year_of_Birth, Gender, Optional_data_shared, hay_fever, asthma, other_allergy, unknown, latitude, longitude, accuracy, time_of_location_fix) VALUES ('', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}');
+			sql = """INSERT INTO remotedata (id, Time_answered_on_phone, Time_uploaded_to_server, feeling, Taken_meds_today, Nose, Eyes, Breathing, Year_of_Birth, Gender, Optional_data_shared, hay_fever, asthma, other_allergy, unknown, latitude, longitude, accuracy, time_of_location_fix) VALUES ('', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}');
 			""".format(row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], row[8], row[9], row[10], row[11], row[12], row[13], row[14], row[15], row[16], row[17])
 			
 			# Update the remotedata table
@@ -130,56 +147,27 @@ class BBAPI():
 		lcur.close()
 		lconn.close()
 		
-		# DB sync complete, create the JSON API file
-		self.createDataFile()
+		# DB sync complete, update the postcodes
+		self.addPostcodesToDB()
 	
-	def createDataFile(self):
-		# Update the local database table apidata
-		print('Creating API data files...')
+	def addPostcodesToDB(self):
+		# Updating postcode data
 		timestart = time.time()
+		i=0
 		
 		lconn = pymysql.connect(host='127.0.0.1', port=3306, user=self.config['localusername'], passwd=self.config['localpassword'], db=self.config['localdbname'], autocommit=True)
 		lcur = lconn.cursor()
-		lcur.execute('SELECT * FROM remotedata;')
+		lcur.execute('SELECT * FROM remotedata WHERE postcode IS NULL;')
 		
-		'''
-			Aggregate the remote data by postcode
-		'''
-		
-		# Get the postcode list
-		postcodesCSV = csv.reader(open("data/postcodes.csv"), delimiter=",")
-		
-		# Skip the header
-		next(postcodesCSV)
-		
-		postcodeList = {}
-		
-		for row in postcodesCSV:
-			postcodeList[row[0]] = {'symptom_score': 0, 
-									'how_feeling_total': 0,
-									'nose_total': 0, 
-									'eyes_total': 0, 
-									'breathing_total': 0,
-									'how_feeling_list': [0],
-									'nose_list': [0],
-									'eyes_list': [0],
-									'breathing_list': [0],
-									'responses_total': 0}
-		
-		i = 0
 		for row in lcur:
-			# Aggregate the data into the postcode list
-			i = i+1
-			url = 'http://uk-postcodes.com/latlng/'+str(row[15])+','+str(row[16])+'.json'
-			#print(url)
-			
 			try:
+				url = 'http://uk-postcodes.com/latlng/'+str(row[15])+','+str(row[16])+'.json'
 				with urllib.request.urlopen(url) as response:
 					postcode = json.loads(response.readall().decode('utf-8'))
 			except urllib.error.HTTPError:
 				print('No postcode found for coordinates.')
 				continue
-			
+		
 			postcodeStub = ''
 			for char in list(postcode['postcode']):
 				if char.isdigit():
@@ -187,226 +175,243 @@ class BBAPI():
 				else:
 					postcodeStub += char
 			
+			# Update the database
+			lcur1 = lconn.cursor()
+			lcur1.execute('UPDATE remotedata SET postcode="'+postcodeStub+'" WHERE id='+str(row[0])+';')
+			
 			currenttime = time.time()-timestart
 			print(str(datetime.timedelta(seconds=currenttime)), i, 'Found postcode ', postcodeStub)
-			
-			# Append to the lists for calculating the medians
-			postcodeList[postcodeStub]['how_feeling_list'].append(row[3])
-			postcodeList[postcodeStub]['nose_list'].append(row[5])
-			postcodeList[postcodeStub]['eyes_list'].append(row[6])
-			postcodeList[postcodeStub]['breathing_list'].append(row[7])
+			i=i+1
 		
-			# Tally the totals
-			postcodeList[postcodeStub]['how_feeling_total'] = int(row[3])+int(postcodeList[postcodeStub]['how_feeling_total'])
-			postcodeList[postcodeStub]['nose_total'] = int(row[5])+int(postcodeList[postcodeStub]['nose_total'])
-			postcodeList[postcodeStub]['eyes_total'] = int(row[6])+int(postcodeList[postcodeStub]['eyes_total'])
-			postcodeList[postcodeStub]['breathing_total'] = int(row[7])+int(postcodeList[postcodeStub]['breathing_total'])
-			postcodeList[postcodeStub]['responses_total'] = int(postcodeList[postcodeStub]['responses_total'])+1
+		print('Updated {} postcode records'.format(i))
 		
-		# Calculate overall severity of symptoms score for each postcode: total of the symptom medians
-		for key, value in postcodeList.items():
-			try:
-				postcodeList[key]['how_feeling_median'] = round(statistics.median(postcodeList[key]['how_feeling_list']),2)
-				postcodeList[key]['nose_median'] = round(statistics.median(postcodeList[key]['nose_list']),2)
-				postcodeList[key]['eyes_median'] = round(statistics.median(postcodeList[key]['eyes_list']),2)
-				postcodeList[key]['breathing_median'] = round(statistics.median(postcodeList[key]['breathing_list']),2)
-				postcodeList[key]['symptom_score'] = round(postcodeList[key]['how_feeling_median']+postcodeList[key]['nose_median']+postcodeList[key]['eyes_median']+postcodeList[key]['breathing_median'],2)
-			except KeyError:
-				print('Error for', key)
-		
-		# Sort the list
-		sorted(postcodeList)
-		
-		#print(postcodeList)
-		#sys.exit(0)
-		
-		# Close the connections	
-		lcur.close()
-		lconn.close()
-		
-		### Write kml files for the different variables
-		
-		# Overall symptom score
-		ET.register_namespace('', "http://www.opengis.net/kml/2.2")
-		tree = ET.parse('data/ukpostcodes_template.kml')
-		root = tree.getroot()
-		
-		for key, value in postcodeList.items():
-			for placemark in root[0][7]:
-				style = placemark[0]
-				name = placemark[1]
-				desc = placemark[2]
-				
-				print('Updating ', name.text)
-				
-				if name.text == 'Data for postcode '+key:
-					desc.set('respondents', str(postcodeList[key]['responses_total']))
-					desc.set('symptom-score', str(postcodeList[key]['symptom_score']))
-					desc.text = """<p>Data summary:</p>
-									<table>
-									<tr><td>Entries</td><td>{}</td></tr>
-									<tr><td>Symptom score</td><td>{}</td></tr>
-									</table>
-									<p>The symptom score is calculated as the total of the symptom medians.</p>
-								""".format(postcodeList[key]['responses_total'], postcodeList[key]['symptom_score'])
-					
-					if postcodeList[key]['symptom_score'] == 0:
-						style.text = '#none'
-					elif postcodeList[key]['symptom_score'] > 0 and postcodeList[key]['symptom_score'] < 1:
-						style.text = '#green'
-					elif postcodeList[key]['symptom_score'] >= 1 and postcodeList[key]['symptom_score'] < 2:
-						style.text = '#yellow'
-					elif postcodeList[key]['symptom_score'] >= 2 and postcodeList[key]['symptom_score'] < 3:
-						style.text = '#orange'
-					elif postcodeList[key]['symptom_score'] >= 3:
-						style.text = '#red'
-					
-		tree.write('/var/www/html/bb/api/symptom_score.kml')
-		
-		# How feeling total
-		ET.register_namespace('', "http://www.opengis.net/kml/2.2")
-		tree = ET.parse('data/ukpostcodes_template.kml')
-		root = tree.getroot()
-		
-		for key, value in postcodeList.items():
-			for placemark in root[0][7]:
-				style = placemark[0]
-				name = placemark[1]
-				desc = placemark[2]
-				
-				print('Updating ', name.text)
-				
-				if name.text == 'Data for postcode '+key:
-					desc.set('respondents', str(postcodeList[key]['responses_total']))
-					desc.set('symptom-score', str(postcodeList[key]['symptom_score']))
-					desc.text = """<p>Data summary:</p>
-									<table>
-									<tr><td>Entries</td><td>{}</td></tr>
-									<tr><td>How feeling median</td><td>{}</td></tr>
-									</table>
-								""".format(postcodeList[key]['responses_total'], postcodeList[key]['how_feeling_median'])
-					
-					if postcodeList[key]['how_feeling_median'] == 0:
-						style.text = '#none'
-					elif postcodeList[key]['how_feeling_median'] > 0 and postcodeList[key]['how_feeling_median'] < 1:
-						style.text = '#green'
-					elif postcodeList[key]['how_feeling_median'] >= 1 and postcodeList[key]['how_feeling_median'] < 2:
-						style.text = '#yellow'
-					elif postcodeList[key]['how_feeling_median'] >= 2 and postcodeList[key]['how_feeling_median'] < 3:
-						style.text = '#orange'
-					elif postcodeList[key]['how_feeling_median'] >= 3:
-						style.text = '#red'
-					
-		tree.write('/var/www/html/bb/api/how_feeling_score.kml')
-		
-		# Nose total
-		ET.register_namespace('', "http://www.opengis.net/kml/2.2")
-		tree = ET.parse('data/ukpostcodes_template.kml')
-		root = tree.getroot()
-		
-		for key, value in postcodeList.items():
-			for placemark in root[0][7]:
-				style = placemark[0]
-				name = placemark[1]
-				desc = placemark[2]
-				
-				print('Updating ', name.text)
-				
-				if name.text == 'Data for postcode '+key:
-					desc.set('respondents', str(postcodeList[key]['responses_total']))
-					desc.set('symptom-score', str(postcodeList[key]['symptom_score']))
-					desc.text = """<p>Data summary:</p>
-									<table>
-									<tr><td>Entries</td><td>{}</td></tr>
-									<tr><td>Nose median</td><td>{}</td></tr>
-									</table>
-								""".format(postcodeList[key]['responses_total'], postcodeList[key]['nose_median'])
-					
-					if postcodeList[key]['nose_median'] == 0:
-						style.text = '#none'
-					elif postcodeList[key]['nose_median'] > 0 and postcodeList[key]['nose_median'] < 1:
-						style.text = '#green'
-					elif postcodeList[key]['nose_median'] >= 1 and postcodeList[key]['nose_median'] < 2:
-						style.text = '#yellow'
-					elif postcodeList[key]['nose_median'] >= 2 and postcodeList[key]['nose_median'] < 3:
-						style.text = '#orange'
-					elif postcodeList[key]['nose_median'] >= 3:
-						style.text = '#red'
-					
-		tree.write('/var/www/html/bb/api/nose_score.kml')
-		
-		# Eyes total
-		ET.register_namespace('', "http://www.opengis.net/kml/2.2")
-		tree = ET.parse('data/ukpostcodes_template.kml')
-		root = tree.getroot()
-		
-		for key, value in postcodeList.items():
-			for placemark in root[0][7]:
-				style = placemark[0]
-				name = placemark[1]
-				desc = placemark[2]
-				
-				print('Updating ', name.text)
-				
-				if name.text == 'Data for postcode '+key:
-					desc.set('respondents', str(postcodeList[key]['responses_total']))
-					desc.set('symptom-score', str(postcodeList[key]['symptom_score']))
-					desc.text = """<p>Data summary:</p>
-									<table>
-									<tr><td>Entries</td><td>{}</td></tr>
-									<tr><td>Eyes median</td><td>{}</td></tr>
-									</table>
-								""".format(postcodeList[key]['responses_total'], postcodeList[key]['eyes_median'])
-					
-					if postcodeList[key]['eyes_median'] == 0:
-						style.text = '#none'
-					elif postcodeList[key]['eyes_median'] > 0 and postcodeList[key]['eyes_median'] < 1:
-						style.text = '#green'
-					elif postcodeList[key]['eyes_median'] >= 1 and postcodeList[key]['eyes_median'] < 2:
-						style.text = '#yellow'
-					elif postcodeList[key]['eyes_median'] >= 2 and postcodeList[key]['eyes_median'] < 3:
-						style.text = '#orange'
-					elif postcodeList[key]['eyes_median'] >= 3:
-						style.text = '#red'
-					
-		tree.write('/var/www/html/bb/api/eyes_score.kml')
+		# Create the static KML API files when done
+		self.createDataFile()
 	
-		# Breathing total
-		ET.register_namespace('', "http://www.opengis.net/kml/2.2")
-		tree = ET.parse('data/ukpostcodes_template.kml')
-		root = tree.getroot()
+	def createDataFile(self):
+		# Get data from database
+		self.updateMessage('Creating API data files...')
 		
-		for key, value in postcodeList.items():
-			for placemark in root[0][7]:
-				style = placemark[0]
-				name = placemark[1]
-				desc = placemark[2]
-				
-				print('Updating ', name.text)
-				
-				if name.text == 'Data for postcode '+key:
-					desc.set('respondents', str(postcodeList[key]['responses_total']))
-					desc.set('symptom-score', str(postcodeList[key]['symptom_score']))
-					desc.text = """<p>Data summary:</p>
-									<table>
-									<tr><td>Entries</td><td>{}</td></tr>
-									<tr><td>Breathing median</td><td>{}</td></tr>
-									</table>
-								""".format(postcodeList[key]['responses_total'], postcodeList[key]['breathing_median'])
-					
-					if postcodeList[key]['breathing_median'] == 0:
-						style.text = '#none'
-					elif postcodeList[key]['breathing_median'] > 0 and postcodeList[key]['breathing_median'] < 1:
-						style.text = '#green'
-					elif postcodeList[key]['breathing_median'] >= 1 and postcodeList[key]['breathing_median'] < 2:
-						style.text = '#yellow'
-					elif postcodeList[key]['breathing_median'] >= 2 and postcodeList[key]['breathing_median'] < 3:
-						style.text = '#orange'
-					elif postcodeList[key]['breathing_median'] >= 3:
-						style.text = '#red'
-					
-		tree.write('/var/www/html/bb/api/breathing_score.kml')
+		lconn = pymysql.connect(host='127.0.0.1', port=3306, user=self.config['localusername'], passwd=self.config['localpassword'], db=self.config['localdbname'], autocommit=True)
+		lcur = lconn.cursor()
+		lcur.execute('SELECT * FROM remotedata WHERE postcode IS NOT NULL;')
 		
+		# Create the dictionary to hold all the processed data from the postcode file
+		
+		# Calculate the weeks
+		startWeekDate = '2016-03-14'
+		
+		d = datetime.date.today()
+		if d.weekday() == 0:
+			d += datetime.timedelta(1)
+		while d.weekday() != 0:
+			d += datetime.timedelta(1)
+		
+		nextMonday = d.strftime('%Y-%m-%d')
+		
+		d0 = datetime.datetime.strptime(startWeekDate, '%Y-%m-%d')
+		d1 = datetime.datetime.strptime(nextMonday, '%Y-%m-%d')
+		delta = d1-d0
+		numberOfWeeks = int(delta.days/7)+1
+		
+		weeksList = {}
+		weeksList[startWeekDate] = {}
+		weekDates = datetime.datetime.strptime(startWeekDate, '%Y-%m-%d')
+		
+		self.updateMessage('Building data structure...')
+		
+		# Week start keys
+		for i in range(1, numberOfWeeks):
+			weekDates += datetime.timedelta(days=7)
+			weeksList[weekDates.strftime('%Y-%m-%d')] = {}
+		
+		# Add the current week
+		weeksList[nextMonday] = {}
+		
+		# Week end keys
+		weekCombinationSize = 1
+		
+		# Postcode list
+		csvData = open("data/postcodes.csv")
+		postcodesCSV = csv.reader(csvData, delimiter=",")
+		next(postcodesCSV)
+		postcodeList = []
+		
+		# Set up the keys
+		for row in postcodesCSV:
+			postcodeList.append(row[0])
+		
+		postcodeList.sort()
+		
+		for weekstart in weeksList:
+			for weekend in weeksList:
+				if weekstart != weekend and weekstart < weekend:
+					weeksList[weekstart][weekend] ={} 
+					
+					print('Week combinations generated: ', weekCombinationSize)
+					weekCombinationSize = weekCombinationSize+1
+					
+					for postcode in postcodeList:
+						weeksList[weekstart][weekend][postcode] = {'all_total': 0,
+																'feeling_total': 0,
+																'nose_total': 0, 
+																'eyes_total': 0, 
+																'breathing_total': 0,
+																'all_list': [0],
+																'feeling_list': [0],
+																'nose_list': [0],
+																'eyes_list': [0],
+																'breathing_list': [0],
+																'all_median': 0,
+																'feeling_median': 0,
+																'nose_median': 0,
+																'eyes_median': 0,
+																'breathing_median': 0,
+																'all_stddev': 0,
+																'feeling_stddev': 0,
+																'nose_stddev': 0,
+																'eyes_stddev': 0,
+																'breathing_stddev': 0}
+		
+		# Loop through each database row and update the figures
+		self.updateMessage('Calculating data...')
+		
+		for row in lcur:
+			self.updateMessage('Adding data to postcodeList for: {}'.format(row[19]))
+			
+			# Update the corresponding postcode and date range figures
+			entryPostcode = row[19]
+			entryDate = row[2].split(' ')
+			entryDate = entryDate[0]
+			
+			for weekstart in weeksList:
+				for weekend in weeksList:
+					if weekstart < entryDate < weekend:
+						# Date within range update the data	
+						#print(weekstart, entryDate, weekend)
+						
+						# Append values to the lists to calculate median and standard deviation
+						weeksList[weekstart][weekend][row[19]]['all_list'].append(row[3])
+						weeksList[weekstart][weekend][row[19]]['all_list'].append(row[5])
+						weeksList[weekstart][weekend][row[19]]['all_list'].append(row[6])
+						weeksList[weekstart][weekend][row[19]]['all_list'].append(row[7])
+						weeksList[weekstart][weekend][row[19]]['feeling_list'].append(row[3])
+						weeksList[weekstart][weekend][row[19]]['nose_list'].append(row[5])
+						weeksList[weekstart][weekend][row[19]]['eyes_list'].append(row[6])
+						weeksList[weekstart][weekend][row[19]]['breathing_list'].append(row[7])
+						
+						weeksList[weekstart][weekend][row[19]]['all_total'] = len(weeksList[weekstart][weekend][row[19]]['all_list'])
+						weeksList[weekstart][weekend][row[19]]['feeling_total'] = len(weeksList[weekstart][weekend][row[19]]['feeling_list'])
+						weeksList[weekstart][weekend][row[19]]['nose_total'] = len(weeksList[weekstart][weekend][row[19]]['nose_list'])
+						weeksList[weekstart][weekend][row[19]]['eyes_total'] = len(weeksList[weekstart][weekend][row[19]]['eyes_list'])
+						weeksList[weekstart][weekend][row[19]]['breathing_total'] = len(weeksList[weekstart][weekend][row[19]]['breathing_list'])
+		
+		# Calculate the data	
+		weekCombinationCurrent = 1
+				
+		for weekstart in weeksList:
+			for weekend in weeksList:
+				if weekstart != weekend and weekstart < weekend:
+					weekCombinationCurrent = weekCombinationCurrent+1
+					
+					for postcode in postcodeList:
+						
+						self.updateMessage('Week: {} to {}, combination {}/{}'.format(weekstart, weekend, weekCombinationCurrent, weekCombinationSize))
+					
+						# Calculate medians
+						self.updateMessage('Calculating medians.')
+						weeksList[weekstart][weekend][postcode]['all_median']  = np.median(weeksList[weekstart][weekend][postcode]['all_list'])
+						weeksList[weekstart][weekend][postcode]['feeling_median']  = np.median(weeksList[weekstart][weekend][postcode]['feeling_list'])
+						weeksList[weekstart][weekend][postcode]['nose_median']  = np.median(weeksList[weekstart][weekend][postcode]['nose_list'])
+						weeksList[weekstart][weekend][postcode]['eyes_median']  = np.median(weeksList[weekstart][weekend][postcode]['eyes_list'])
+						weeksList[weekstart][weekend][postcode]['breathing_median']  = np.median(weeksList[weekstart][weekend][postcode]['breathing_list'])
+						
+						# Calculate standard deviation
+						self.updateMessage('Calculating standard deviation.')
+					
+						if len(weeksList[weekstart][weekend][postcode]['all_list']) > 1:
+							weeksList[weekstart][weekend][postcode]['all_stddev'] = round(np.std(weeksList[weekstart][weekend][postcode]['all_list']), 3)
+						else:
+							weeksList[weekstart][weekend][postcode]['all_stddev'] = 'Not enough data available.'
+					
+						if len(weeksList[weekstart][weekend][postcode]['feeling_list']) > 1:
+							weeksList[weekstart][weekend][postcode]['feeling_stddev'] = round(np.std(weeksList[weekstart][weekend][postcode]['feeling_list']), 3)
+						else:
+							weeksList[weekstart][weekend][postcode]['feeling_stddev'] = 'Not enough data available.'
+					
+						if len(weeksList[weekstart][weekend][postcode]['nose_list']) > 1:
+							weeksList[weekstart][weekend][postcode]['nose_stddev'] = round(np.std(weeksList[weekstart][weekend][postcode]['nose_list']), 3)
+						else:
+							weeksList[weekstart][weekend][postcode]['nose_stddev'] = 'Not enough data available.'
+					
+						if len(weeksList[weekstart][weekend][postcode]['eyes_list']) > 1:
+							weeksList[weekstart][weekend][postcode]['eyes_stddev'] = round(np.std(weeksList[weekstart][weekend][postcode]['eyes_list']), 3)
+						else:
+							weeksList[weekstart][weekend][postcode]['eyes_stddev'] = 'Not enough data available.'
+					
+						if len(weeksList[weekstart][weekend][postcode]['breathing_list']) > 1:
+							weeksList[weekstart][weekend][postcode]['breathing_stddev'] = round(np.std(weeksList[weekstart][weekend][postcode]['breathing_list']), 3)
+						else:
+							weeksList[weekstart][weekend][postcode]['breathing_list_stddev'] = 'Not enough data available.'
+					
+		#### Create data files	: save files in format, timelineType-YYYY-MM-DD-YYYY-MM-DD.kml'
+		self.updateMessage('Writing the KML files...')
+		
+		symptomList = ['all', 'feeling', 'nose', 'eyes', 'breathing']
+		fileCount = 1
+		
+		for symptom in symptomList:
+			print('Symptom type:', symptom)
+			
+			for weekstart in weeksList:
+				for weekend in weeksList:
+					if weekstart != weekend and weekstart < weekend:
+						
+						print('Sorting KML data for ', weekstart, weekend)
+						
+						# Symptom file
+						fileCount = fileCount+1
+						ET.register_namespace('', "http://www.opengis.net/kml/2.2")
+						tree = ET.parse('data/ukpostcodes_template.kml')
+						root = tree.getroot()
+										
+						for postcode in postcodeList:
+							for placemark in root[0][7]:
+								style = placemark[0]
+								name = placemark[1]
+								desc = placemark[2]
+								
+								if name.text == 'Data for postcode '+postcode:
+									desc.set('respondents', str(weeksList[weekstart][weekend][postcode][symptom+'_total']))
+									desc.set('symptom-score', str(weeksList[weekstart][weekend][postcode][symptom+'_median']))
+									
+									desc.set('stddev-score', str(weeksList[weekstart][weekend][postcode][symptom+'_stddev']))
+									desc.text = """<p>Data summary:</p>
+													<table>
+													<tr><td>Entries</td><td>{}</td></tr>
+													<tr><td>Median score</td><td>{}</td></tr>
+													<tr><td>Standard deviation</td><td>{}</td></tr>
+													</table>
+												""".format(weeksList[weekstart][weekend][postcode][symptom+'_total'], weeksList[weekstart][weekend][postcode][symptom+'_median'], weeksList[weekstart][weekend][postcode][symptom+'_stddev'])
+									
+									if weeksList[weekstart][weekend][postcode][symptom+'_median'] == 0:
+										style.text = '#none'
+									elif weeksList[weekstart][weekend][postcode][symptom+'_median'] == 1:
+										style.text = '#green'
+									elif weeksList[weekstart][weekend][postcode][symptom+'_median'] == 2:
+										style.text = '#orange'
+									elif weeksList[weekstart][weekend][postcode][symptom+'_median'] >= 3:
+										style.text = '#red'
+							
+							tree.write('/var/www/html/bb/api/'+symptom+'-'+weekstart+'-'+weekend+'.kml')
+							self.updateMessage('Written file: {}'.format(symptom+'-'+weekstart+'-'+weekend+'.kml'))
+		
+		print('Files written: ', fileCount)
+	
+	def updateMessage(self, msg):
+		print(msg)
+		print('Start time: ', time.strftime("%H:%M:%S"))
+	
 	def getConfig(self):
 		# Get the config file details (database login)
 		d = {}

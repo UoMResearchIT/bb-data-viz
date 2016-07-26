@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- UK postcodes KML from: https://en.wikipedia.org/w/index.php?title=Template:Attached_KML/List_of_postcode_areas_in_the_United_Kingdom&action=raw -->
 <kml xmlns="http://www.opengis.net/kml/2.2">
 	<Document>
 		<Style id="none">
@@ -66,14 +64,20 @@
 				<outline>3</outline>
 			</PolyStyle>
 		</Style>
-		
+	
 		<name>Data for British postcode areas</name>
 		<description>Postcode areas in the United Kingdom and Crown dependencies</description>
 		<Folder>
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode AB</name>
-				<description>AB postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -85,7 +89,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode AL</name>
-				<description>AL postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -97,7 +107,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode B</name>
-				<description>B postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -109,7 +125,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode BA</name>
-				<description>BA postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -121,7 +143,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode BB</name>
-				<description>BB postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -133,7 +161,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode BD</name>
-				<description>BD postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -145,7 +179,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode BH</name>
-				<description>BH postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -157,7 +197,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode BL</name>
-				<description>BL postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -169,7 +215,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode BN</name>
-				<description>BN postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -181,7 +233,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode BR</name>
-				<description>BR postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -193,7 +251,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode BS</name>
-				<description>BS postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -205,7 +269,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode BT</name>
-				<description>BT postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -226,7 +296,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode CA</name>
-				<description>CA postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -238,7 +314,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode CB</name>
-				<description>CB postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -250,7 +332,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode CF</name>
-				<description>CF postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -262,7 +350,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode CH</name>
-				<description>CH postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -274,7 +368,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode CM</name>
-				<description>CM postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -286,7 +386,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode CO</name>
-				<description>CO postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -298,7 +404,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode CR</name>
-				<description>CR postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -310,7 +422,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode CT</name>
-				<description>CT postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -322,7 +440,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode CV</name>
-				<description>CV postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -334,7 +458,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode CW</name>
-				<description>CW postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -346,7 +476,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode DA</name>
-				<description>DA postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -358,7 +494,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode DD</name>
-				<description>DD postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -370,7 +512,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode DE</name>
-				<description>DE postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -382,7 +530,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode DG</name>
-				<description>DG postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -394,7 +548,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode DH</name>
-				<description>DH postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -406,7 +566,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode DL</name>
-				<description>DL postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -418,7 +584,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode DN</name>
-				<description>DN postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -430,7 +602,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode DT</name>
-				<description>DT postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -442,7 +620,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode DY</name>
-				<description>DY postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -454,7 +638,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode E</name>
-				<description>E postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -466,7 +656,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode EC</name>
-				<description>EC postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -478,7 +674,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode EH</name>
-				<description>EH postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -490,7 +692,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode EN</name>
-				<description>EN postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -502,7 +710,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode EX</name>
-				<description>EX postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -523,7 +737,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode FK</name>
-				<description>FK postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -535,7 +755,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode FY</name>
-				<description>FY postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -547,7 +773,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode G</name>
-				<description>G postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -559,7 +791,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode GL</name>
-				<description>GL postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -571,7 +809,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode GU</name>
-				<description>GU postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -595,7 +839,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode HA</name>
-				<description>HA postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -607,7 +857,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode HD</name>
-				<description>HD postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -619,7 +875,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode HG</name>
-				<description>HG postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -631,7 +893,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode HP</name>
-				<description>HP postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -643,7 +911,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode HR</name>
-				<description>HR postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -655,7 +929,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode HS</name>
-				<description>HS postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -667,7 +947,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode HU</name>
-				<description>HU postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -679,7 +965,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode HX</name>
-				<description>HX postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -691,7 +983,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode IG</name>
-				<description>IG postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -715,7 +1013,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode IP</name>
-				<description>IP postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -727,7 +1031,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode IV</name>
-				<description>IV postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -751,7 +1061,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode KA</name>
-				<description>KA postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -772,7 +1088,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode KT</name>
-				<description>KT postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -784,7 +1106,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode KW</name>
-				<description>KW postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -805,7 +1133,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode KY</name>
-				<description>KY postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -817,7 +1151,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode L</name>
-				<description>L postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -829,7 +1169,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode LA</name>
-				<description>LA postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -841,7 +1187,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode LD</name>
-				<description>LD postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -853,7 +1205,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode LE</name>
-				<description>LE postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -865,7 +1223,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode LL</name>
-				<description>LL postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -877,7 +1241,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode LN</name>
-				<description>LN postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -889,7 +1259,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode LS</name>
-				<description>LS postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -901,7 +1277,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode LU</name>
-				<description>LU postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -913,7 +1295,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode M</name>
-				<description>M postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -925,7 +1313,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode ME</name>
-				<description>ME postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -937,7 +1331,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode MK</name>
-				<description>MK postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -949,7 +1349,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode ML</name>
-				<description>ML postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -961,7 +1367,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode N</name>
-				<description>N postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -973,7 +1385,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode NE</name>
-				<description>NE postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -985,7 +1403,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode NG</name>
-				<description>NG postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -997,7 +1421,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode NN</name>
-				<description>NN postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1009,7 +1439,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode NP</name>
-				<description>NP postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1021,7 +1457,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode NR</name>
-				<description>NR postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1033,7 +1475,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode NW</name>
-				<description>NW postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1045,7 +1493,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode OL</name>
-				<description>OL postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1057,7 +1511,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode OX</name>
-				<description>OX postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1069,7 +1529,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode PA</name>
-				<description>PA postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -1097,7 +1563,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode PE</name>
-				<description>PE postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1109,7 +1581,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode PH</name>
-				<description>PH postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -1144,7 +1622,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode PL</name>
-				<description>PL postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1156,7 +1640,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode PO</name>
-				<description>PO postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1168,7 +1658,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode PR</name>
-				<description>PR postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1180,7 +1676,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode RG</name>
-				<description>RG postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1192,7 +1694,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode RH</name>
-				<description>RH postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1204,7 +1712,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode RM</name>
-				<description>RM postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1216,7 +1730,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode S</name>
-				<description>S postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1228,7 +1748,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode SA</name>
-				<description>SA postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1240,7 +1766,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode SE</name>
-				<description>SE postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1252,7 +1784,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode SG</name>
-				<description>SG postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1264,7 +1802,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode SK</name>
-				<description>SK postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1276,7 +1820,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode SL</name>
-				<description>SL postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1288,7 +1838,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode SM</name>
-				<description>SM postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1300,7 +1856,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode SN</name>
-				<description>SN postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1312,7 +1874,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode SO</name>
-				<description>SO postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1324,7 +1892,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode SP</name>
-				<description>SP postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1336,7 +1910,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode SR</name>
-				<description>SR postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1348,7 +1928,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode SS</name>
-				<description>SS postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1360,7 +1946,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode ST</name>
-				<description>ST postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1372,7 +1964,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode SW</name>
-				<description>SW postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1384,7 +1982,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode SY</name>
-				<description>SY postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1396,7 +2000,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode TA</name>
-				<description>TA postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1408,7 +2018,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode TD</name>
-				<description>TD postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1420,7 +2036,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode TF</name>
-				<description>TF postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1432,7 +2054,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode TN</name>
-				<description>TN postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1444,7 +2072,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode TQ</name>
-				<description>TQ postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1456,7 +2090,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode TR</name>
-				<description>TR postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -1477,7 +2117,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode TS</name>
-				<description>TS postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1489,7 +2135,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode TW</name>
-				<description>TW postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1501,7 +2153,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode UB</name>
-				<description>UB postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1513,7 +2171,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode W</name>
-				<description>W postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1525,7 +2189,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode WA</name>
-				<description>WA postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1537,7 +2207,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode WC</name>
-				<description>WC postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1549,7 +2225,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode WD</name>
-				<description>WD postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1561,7 +2243,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode WF</name>
-				<description>WF postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1573,7 +2261,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode WN</name>
-				<description>WN postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1585,7 +2279,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode WR</name>
-				<description>WR postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1597,7 +2297,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode WS</name>
-				<description>WS postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1609,7 +2315,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode WV</name>
-				<description>WV postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1621,7 +2333,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode YO</name>
-				<description>YO postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -1633,7 +2351,13 @@
 			<Placemark>
 				<styleUrl>#none</styleUrl>
 				<name>Data for postcode ZE</name>
-				<description>ZE postcode area</description>
+				<description respondents="0" stddev-score="Not enough data available." symptom-score="0.0">&lt;p&gt;Data summary:&lt;/p&gt;
+													&lt;table&gt;
+													&lt;tr&gt;&lt;td&gt;Entries&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Median score&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;
+													&lt;tr&gt;&lt;td&gt;Standard deviation&lt;/td&gt;&lt;td&gt;Not enough data available.&lt;/td&gt;&lt;/tr&gt;
+													&lt;/table&gt;
+												</description>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>

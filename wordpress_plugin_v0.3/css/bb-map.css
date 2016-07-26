@@ -1,0 +1,135 @@
+/* Styles data viz map */
+
+#bb-data-viz-wrapper h3 {
+    border-bottom: 1px solid #000;
+    font-size: 24px;
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+}
+
+#bb-data-viz-wrapper p {
+	padding: 0 0 10px;
+}
+
+#bb-mapid { 
+	background: #46bcec!important;
+	height: 90vh;
+	margin: 20px auto 0;
+	max-width: 1120px;
+}
+
+#bb-loader {
+	background: #333 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    display: none;
+    font-size: 20px;
+    margin: 200px 0 0 420px;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    width: 250px;
+    z-index: 900;
+}
+
+#bb-loader img {
+	margin: 5px auto 10px;
+}
+
+#bb-map-legend h4 {
+	padding: 0 0 5px;
+}
+
+.bb-map-key {
+	padding: 10px;
+}
+
+.bb-map-key span {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+}
+
+#bb-map-key-none {
+	background: #fff;
+	border: 1px dotted #000;
+}
+
+#bb-map-key-green {
+	background: #00FF00;
+}
+
+#bb-map-key-yellow {
+	background: #FFFF00;
+}
+
+#bb-map-key-orange {
+	background: #FF8C00;
+}
+
+#bb-map-key-red {
+	background: #FF0000;
+}
+
+#bb-filters {
+	background: #fff none repeat scroll 0 0;
+    margin: 10px 0 0 468px;
+    padding: 10px 10px 25px;
+    position: absolute;
+    width: 600px;
+    z-index: 900;
+}
+
+#bb-options {
+	
+}
+
+.bb-map-control {
+	background: #333;
+	padding: 5px 2px;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	font-size: 11px;
+	border-radius: 3px;
+}
+
+.bb-map-control-active {
+	background: #46bcec!important;
+}
+
+#bb-slider {
+    color: #fff;
+    font-size: 16px;
+    margin: 10px 0 10px 10px;
+    width: 555px;
+    z-index: 1000;
+}
+
+.ui-slider-handle {
+	outline: none!important;
+}
+
+.ui-slider-pips .ui-slider-pip-selected-2,
+.ui-slider-label {
+	color: #000!important;
+}
+
+.ui-slider-pip-last .ui-slider-label {
+	position: relative!important;
+	left: -30px!important;
+}
+
+#bb-timeline {
+	margin: 10px 5px;
+}
+
+#bb-timeline span {
+	font-weight: bold;
+}
+
+.ui-slider-pips .ui-slider-label {
+	width: 6em!important;
+}
+

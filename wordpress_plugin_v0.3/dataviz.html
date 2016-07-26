@@ -1,0 +1,46 @@
+<!-- BODY -->
+
+<div id="bb-loader">
+	<img src="imgs/loading.svg" alt="">
+	<div id="bb-loader-text"></div>
+</div>
+
+<div id="bb-filters">
+	<div id="bb-options">
+		<span class="bb-map-control bb-map-control-active" id="bb-map-overview" data-kml-file="symptom_score.kml" data-timeline="all">All symptoms</span>
+		<span class="bb-map-control" id="bb-map-feeling" data-kml-file="how_feeling_score.kml" data-timeline="feeling">How feeling symptoms</span>
+		<span class="bb-map-control" id="bb-map-nose" data-kml-file="nose_score.kml" data-timeline="nose">Nose symptoms</span>
+		<span class="bb-map-control" id="bb-map-eyes" data-kml-file="eyes_score.kml" data-timeline="eyes">Eyes symptoms</span>
+		<span class="bb-map-control" id="bb-map-breathing" data-kml-file="breathing_score.kml" data-timeline="breathing">Breathing symptoms</span>
+	</div>
+	
+	<div id="bb-timeline">
+		Weekly data timeline: <span id="bb-start-date"></span> to <span id="bb-end-date"></span>
+	</div>
+	
+	<div id="bb-slider"></div>
+</div>
+
+<div id="bb-mapid"></div>
+
+<div id="bb-map-legend">
+	<h4>Symptom scores:</h4>
+	<span class="bb-map-key"><span id="bb-map-key-none"></span> 0: none</span>
+	<span class="bb-map-key"><span id="bb-map-key-green"></span> 1: moderate</span>
+	<span class="bb-map-key"><span id="bb-map-key-orange"></span> 2: bad</span>
+	<span class="bb-map-key"><span id="bb-map-key-red"></span> 3: severe</span>
+</div>
+
+<!-- HEAD -->
+
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/south-street/jquery-ui.css">
+<link rel="stylesheet" href="css/bb-map.css" />
+<link rel="stylesheet" href="css/jquery-ui-slider-pips.css" />
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSn93izC-nPH7tSk1_-BK6D59whEpWFQo&callback=initMapData" async defer></script>
+<script src="js/jquery.js"></script>
+<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+<script type="text/javascript" src="js/date.js"></script>
+<script type="text/javascript" src="js/jquery-ui-slider-pips.js"></script>
+<script src="js/bb-map.js"></script>
+
