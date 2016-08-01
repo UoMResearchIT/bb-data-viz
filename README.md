@@ -4,10 +4,7 @@ Britain Breathing data visualisation Wordpress plugin and data API.
 
 Includes api.py which generates static KML files of the research data from the local database.
 
-api.py dependencies:
-
-* Python 3
-* PyMySQL: [https://github.com/PyMySQL/PyMySQL] (https://github.com/PyMySQL/PyMySQL)
+See import list in api.py for dependencies.
 
 The file *api.py* requires a *config.ini* file in the same directory containing the remote and local database logins. In the following format:
 
