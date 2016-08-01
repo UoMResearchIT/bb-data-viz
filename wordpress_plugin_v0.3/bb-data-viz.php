@@ -65,10 +65,10 @@ class BBDataViz {
 
 			<div id="bb-map-legend">
 				<h4>Symptom scores:</h4>
-				<span class="bb-map-key"><span id="bb-map-key-none"></span> 0: none</span>
-				<span class="bb-map-key"><span id="bb-map-key-green"></span> 1: moderate</span>
-				<span class="bb-map-key"><span id="bb-map-key-orange"></span> 2: bad</span>
-				<span class="bb-map-key"><span id="bb-map-key-red"></span> 3: severe</span>
+				<span class="bb-map-key"><span id="bb-map-key-none"></span> No data</span>
+				<span class="bb-map-key"><span id="bb-map-key-green"></span> 0: No symptoms</span>
+				<span class="bb-map-key"><span id="bb-map-key-yellow"></span> 1: Moderate</span>
+				<span class="bb-map-key"><span id="bb-map-key-red"></span> 2: Severe</span>
 			</div>';
 			
 		// All the data parsing etc is done in the js files client side...

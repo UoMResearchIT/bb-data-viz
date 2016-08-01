@@ -38,12 +38,12 @@ class BBAPI():
 		self.config = self.getConfig()
 		
 		# Sync the local and source database
-		#self.syncDatabases()
+		self.syncDatabases()
 		
 		# TESTING
 		# self.createDataFile()
 		# self.addPostcodesToDB()
-		self.createDataFile()
+		# self.createDataFile()
 	
 	def syncDatabases(self):
 		# Backup the local database
@@ -394,14 +394,15 @@ class BBAPI():
 													</table>
 												""".format(weeksList[weekstart][weekend][postcode][symptom+'_total'], weeksList[weekstart][weekend][postcode][symptom+'_median'], weeksList[weekstart][weekend][postcode][symptom+'_stddev'])
 									
-									if weeksList[weekstart][weekend][postcode][symptom+'_median'] == 0:
+									if weeksList[weekstart][weekend][postcode]['all_total'] == 0:
 										style.text = '#none'
-									elif weeksList[weekstart][weekend][postcode][symptom+'_median'] == 1:
-										style.text = '#green'
-									elif weeksList[weekstart][weekend][postcode][symptom+'_median'] == 2:
-										style.text = '#orange'
-									elif weeksList[weekstart][weekend][postcode][symptom+'_median'] >= 3:
-										style.text = '#red'
+									else:
+										if weeksList[weekstart][weekend][postcode][symptom+'_median'] == 0:
+											style.text = '#green'
+										elif weeksList[weekstart][weekend][postcode][symptom+'_median'] == 1:
+											style.text = '#yellow'
+										elif weeksList[weekstart][weekend][postcode][symptom+'_median'] >= 2:
+											style.text = '#red'
 							
 							tree.write('/var/www/html/bb/api/'+symptom+'-'+weekstart+'-'+weekend+'.kml')
 							self.updateMessage('Written file: {}'.format(symptom+'-'+weekstart+'-'+weekend+'.kml'))

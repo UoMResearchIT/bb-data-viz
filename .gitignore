@@ -3,3 +3,4 @@
 test_data/
 bb_db_sync/config.ini
 bb_db_sync/data/*.sql
+notes/

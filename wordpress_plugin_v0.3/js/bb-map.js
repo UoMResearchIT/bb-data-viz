@@ -298,7 +298,7 @@ function setLoader(on, msg) {
 	} else {
 		setTimeout(function() {
 			$('#bb-loader').hide();
-		}, 4000);
+		}, 3000);
 	}
 }
 
