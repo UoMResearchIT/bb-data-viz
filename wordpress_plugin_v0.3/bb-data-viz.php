@@ -89,8 +89,7 @@ class BBDataViz {
 			wp_enqueue_script('jqui_js', 'https://code.jquery.com/ui/1.12.0/jquery-ui.js');
 			wp_enqueue_script('date_js', plugins_url('js/date.js' ,__FILE__));
 			wp_enqueue_script('pips_js', plugins_url('js/jquery-ui-slider-pips.js' ,__FILE__));
-			wp_enqueue_script('bbmap_js', plugins_url('js/bb-map.js' ,__FILE__));
-			wp_enqueue_script('gmaps_js', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBSn93izC-nPH7tSk1_-BK6D59whEpWFQo&callback=initMapData');
+			wp_enqueue_script('bbmap_js', plugins_url('js/bb-map.js' ,__FILE__));wp_enqueue_script('gmaps_js', '//maps.googleapis.com/maps/api/js?key=AIzaSyBSn93izC-nPH7tSk1_-BK6D59whEpWFQo&callback=initMapData&v=3', array(), false, true);
 		}
 	}
 }

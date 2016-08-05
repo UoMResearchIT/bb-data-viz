@@ -148,11 +148,6 @@ var mapOptions =  { styles:
 ]
 };
 
-var feelingData;
-var eyesData;
-var noseData;
-var breathingData;
-
 function initMapData() {
 	// Set the map
 	nextMonday = Date.today().next().monday();
@@ -304,7 +299,7 @@ function setLoader(on, msg) {
 
 $(function() {
 	setLoader(1, 'Loading map...');
-	initMapData();
+	//initMapData();
 	initTimeline();
 	selectDataType();
 });	
