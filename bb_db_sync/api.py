@@ -38,11 +38,11 @@ class BBAPI():
 		self.config = self.getConfig()
 		
 		# Sync the local and source database
-		self.syncDatabases()
+		#self.syncDatabases()
 		
 		# TESTING
 		# self.createDataFile()
-		# self.addPostcodesToDB()
+		self.addPostcodesToDB()
 		# self.createDataFile()
 	
 	def syncDatabases(self):
@@ -132,7 +132,7 @@ class BBAPI():
 		rowcount = 0
 		for row in cur:
 			#print(row[0])
-			sql = """INSERT INTO remotedata (id, Time_answered_on_phone, Time_uploaded_to_server, feeling, Taken_meds_today, Nose, Eyes, Breathing, Year_of_Birth, Gender, Optional_data_shared, hay_fever, asthma, other_allergy, unknown, latitude, longitude, accuracy, time_of_location_fix) VALUES ('', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}');
+			sql = """INSERT INTO remotedata (id, Time_answered_on_phone, Time_uploaded_to_server, How_feeling, Taken_meds_today, Nose, Eyes, Breathing, Year_of_Birth, Gender, Optional_data_shared, hay_fever, asthma, other_allergy, unknown, latitude, longitude, accuracy, time_of_location_fix) VALUES ('', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}');
 			""".format(row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], row[8], row[9], row[10], row[11], row[12], row[13], row[14], row[15], row[16], row[17])
 			
 			# Update the remotedata table
@@ -163,7 +163,7 @@ class BBAPI():
 			try:
 				url = 'http://uk-postcodes.com/latlng/'+str(row[15])+','+str(row[16])+'.json'
 				with urllib.request.urlopen(url) as response:
-					postcode = json.loads(response.readall().decode('utf-8'))
+					postcode = json.loads(response.read().decode('utf-8'))
 			except urllib.error.HTTPError:
 				print('No postcode found for coordinates.')
 				continue
